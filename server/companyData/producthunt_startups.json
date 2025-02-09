@@ -1,0 +1,602 @@
+[
+    {
+        "Name": "Dreamina",
+        "Description": "All-in-one AI creative suite for all your artistic work",
+        "Website": "https://www.producthunt.com/products/dreamina#dreamina"
+    },
+    {
+        "Name": "Sagehood",
+        "Description": "AI agents for a 360° analysis of the U.S stock market",
+        "Website": "https://www.producthunt.com/products/sagehood-ai-investing-insights#sagehood-3"
+    },
+    {
+        "Name": "Wegic",
+        "Description": "Your first AI website team",
+        "Website": "https://www.producthunt.com/products/wegic#wegic-2"
+    },
+    {
+        "Name": "TestSprite 1.0",
+        "Description": "First AI agent automating entire software testing process",
+        "Website": "https://www.producthunt.com/products/testsprite#testsprite-1-0"
+    },
+    {
+        "Name": "Tana",
+        "Description": "Put your notes to work with voice and AI",
+        "Website": "https://www.producthunt.com/posts/tana-2"
+    },
+    {
+        "Name": "Snowflake Startup Challenge",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "21st.dev",
+        "Description": "Github + Pinterest to make your AI websites look beautiful",
+        "Website": "https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers#21st-dev-2"
+    },
+    {
+        "Name": "Screen Studio 3.0",
+        "Description": "Beautiful screen recordings with instant shareable links",
+        "Website": "https://www.producthunt.com/posts/screen-studio-3-0"
+    },
+    {
+        "Name": "NewsBang",
+        "Description": "Your first AI news & insights app",
+        "Website": "https://www.producthunt.com/products/newsbang#newsbang"
+    },
+    {
+        "Name": "Trae",
+        "Description": "Adaptive AI IDE that helps you ship faster",
+        "Website": "https://www.producthunt.com/products/trae#trae"
+    },
+    {
+        "Name": "JoggAI 2.0: AI Avatar Generator",
+        "Description": "Create lifelike, personalized AI avatars from text prompts",
+        "Website": "https://www.producthunt.com/products/jogg-ai#joggai-2-0-ai-avatar-generator"
+    },
+    {
+        "Name": "Snowflake Startup Challenge",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Omakase AI",
+        "Description": "Create your shopper AI agent with just a URL",
+        "Website": "https://www.producthunt.com/posts/omakase-ai-3"
+    },
+    {
+        "Name": "Nowadays",
+        "Description": "Streamlining corporate event planning with AI",
+        "Website": "https://www.producthunt.com/posts/nowadays-2"
+    },
+    {
+        "Name": "Tool Finder",
+        "Description": "Your shortcut to better software",
+        "Website": "https://www.producthunt.com/posts/tool-finder-2"
+    },
+    {
+        "Name": "Lovable + Builder.io",
+        "Description": "Turn Figma designs into full stack apps with AI",
+        "Website": "https://www.producthunt.com/products/builder-io#lovable-builder-io"
+    },
+    {
+        "Name": "Genlogin",
+        "Description": "Turn repetitive tasks into automation workflows",
+        "Website": "https://www.producthunt.com/products/genlogin#genlogin"
+    },
+    {
+        "Name": "Notion for Startups",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Raycast Focus",
+        "Description": "Stay in flow by blocking distracting apps and websites",
+        "Website": "https://www.producthunt.com/products/raycast#raycast-focus"
+    },
+    {
+        "Name": "AIVLOG",
+        "Description": "Your personal AI video editor for stunning vlogs",
+        "Website": "https://www.producthunt.com/products/aivlog#aivlog"
+    },
+    {
+        "Name": "AI Follow-ups by folk",
+        "Description": "Get suggested the best leads to follow-up",
+        "Website": "https://www.producthunt.com/products/folk-2#ai-follow-ups-by-folk"
+    },
+    {
+        "Name": "AI Chat-avatar",
+        "Description": "Conversational AI assistant always ready do the job for you",
+        "Website": "https://www.producthunt.com/posts/ai-chat-avatar"
+    },
+    {
+        "Name": "Sendbird AI agent for customer service",
+        "Description": "Delightful customer experiences with omnichannel AI",
+        "Website": "https://www.producthunt.com/posts/sendbird-ai-agent-for-customer-service"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "co.dev",
+        "Description": "Turn your ideas into full-stack apps",
+        "Website": "https://www.producthunt.com/posts/co-dev"
+    },
+    {
+        "Name": "Wepost",
+        "Description": "Generate on-brand marketing with ease",
+        "Website": "https://www.producthunt.com/products/wepost#wepost-1"
+    },
+    {
+        "Name": "Digma Preemptive Observability",
+        "Description": "Preempt performance and scaling issues in pre-production",
+        "Website": "https://www.producthunt.com/posts/digma-preemptive-observability"
+    },
+    {
+        "Name": "Chatbase",
+        "Description": "AI Agents for magical customer experiences",
+        "Website": "https://www.producthunt.com/posts/chatbase-5"
+    },
+    {
+        "Name": "AI SDR-Kit",
+        "Description": "Build your own AI-Sales agent",
+        "Website": "https://www.producthunt.com/products/ai-sdr-kit#ai-sdr-kit"
+    },
+    {
+        "Name": "Auth0 by Okta",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Shimmer 2.0",
+        "Description": "ADHD Coaching, now AI-enhanced",
+        "Website": "https://www.producthunt.com/products/shimmer-care#shimmer-2-0"
+    },
+    {
+        "Name": "Basedash",
+        "Description": "The AI-native business intelligence platform",
+        "Website": "https://www.producthunt.com/posts/basedash-2"
+    },
+    {
+        "Name": "Airtop Auth",
+        "Description": "Automate web tasks on authenticated sites",
+        "Website": "https://www.producthunt.com/posts/airtop-auth-2"
+    },
+    {
+        "Name": "Concierge AI",
+        "Description": "Talk to your apps with natural language.",
+        "Website": "https://www.producthunt.com/posts/concierge-ai"
+    },
+    {
+        "Name": "ChatGPT Operator",
+        "Description": "Agent that can use its own browser to perform tasks for you",
+        "Website": "https://www.producthunt.com/products/chatgpt-operator#chatgpt-operator"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "ARTLAS",
+        "Description": "An AI art companion that helps you easily explore art",
+        "Website": "https://www.producthunt.com/posts/artlas-2"
+    },
+    {
+        "Name": "Recap",
+        "Description": "Your AI knowledge space for insightful visuals",
+        "Website": "https://www.producthunt.com/products/recap-6#recap-e50a6275-99de-46fc-bfcc-2cbec645c767"
+    },
+    {
+        "Name": "Minduck Discovery",
+        "Description": "Search the world with your mind-map AI",
+        "Website": "https://www.producthunt.com/products/minduck#minduck-discovery"
+    },
+    {
+        "Name": "Outrank",
+        "Description": "Keyword research and blogging on auto-pilot for growth",
+        "Website": "https://www.producthunt.com/products/outrank#outrank"
+    },
+    {
+        "Name": "Roame Travel",
+        "Description": "Fly for free using your points",
+        "Website": "https://www.producthunt.com/posts/roame-travel"
+    },
+    {
+        "Name": "Snowflake Startup Challenge",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Quick Mock",
+        "Description": "Turn any job on LinkedIn into a mock interview instantly",
+        "Website": "https://www.producthunt.com/products/quick-mock-ai-interviewer-for-any-job#quick-mock"
+    },
+    {
+        "Name": "Telescope 2.0",
+        "Description": "Find exactly who you’re looking for, fast",
+        "Website": "https://www.producthunt.com/products/telescope-11#telescope-2-0-2"
+    },
+    {
+        "Name": "Muse",
+        "Description": "Sites & eCom so easy, Grandma can do. Bento meets Gumroad.",
+        "Website": "https://www.producthunt.com/posts/muse-671b9a54-37a6-4e7a-b8db-a57374beb543"
+    },
+    {
+        "Name": "AnyParser Pro",
+        "Description": "Parse multi-language images and documents into JSON/markdown",
+        "Website": "https://www.producthunt.com/products/anyparser#anyparser-pro"
+    },
+    {
+        "Name": "Topview 2.0 Product Avatar",
+        "Description": "Holding and showcasing your products perfectly",
+        "Website": "https://www.producthunt.com/products/topview-ai#topview-2-0-product-avatar"
+    },
+    {
+        "Name": "Auth0 by Okta",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Scam AI",
+        "Description": "Spot scams before they spot you",
+        "Website": "https://www.producthunt.com/posts/scam-ai"
+    },
+    {
+        "Name": "CleanMyMac Business",
+        "Description": "Centralized Mac maintenance for small and medium teams",
+        "Website": "https://www.producthunt.com/products/macpaw#cleanmymac-business"
+    },
+    {
+        "Name": "Humva",
+        "Description": "Your easiest go-to avatar tool",
+        "Website": "https://www.producthunt.com/products/humva#humva"
+    },
+    {
+        "Name": "Inboox.AI",
+        "Description": "Pinterest for Email Templates - 1M+ Designs from 15k+ brands",
+        "Website": "https://www.producthunt.com/posts/inboox-ai"
+    },
+    {
+        "Name": "Waitless",
+        "Description": "Collect sign ups with built-in referrals",
+        "Website": "https://www.producthunt.com/products/waitless-2#waitless-2"
+    },
+    {
+        "Name": "Auth0 by Okta",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Jotform for Canva",
+        "Description": "Create powerful forms for Canva",
+        "Website": "https://www.producthunt.com/posts/jotform-for-canva"
+    },
+    {
+        "Name": "OpenAI o3-mini",
+        "Description": "Pushing the frontier of cost-effective reasoning",
+        "Website": "https://www.producthunt.com/posts/openai-o3-mini"
+    },
+    {
+        "Name": "DryMerge",
+        "Description": "AI agents that work for you 24/7",
+        "Website": "https://www.producthunt.com/products/drymerge#drymerge-2"
+    },
+    {
+        "Name": "Kompas AI",
+        "Description": "An alternative to ChatGPT’s deep research",
+        "Website": "https://www.producthunt.com/posts/kompas-ai-3"
+    },
+    {
+        "Name": "ChatGPT Deep Research",
+        "Description": "Agent capable of doing deep research for you independently",
+        "Website": "https://www.producthunt.com/posts/chatgpt-deep-research"
+    },
+    {
+        "Name": "Notion for Startups",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Clemta",
+        "Description": "Run your business in one place: formation, tax, bookkeeping!",
+        "Website": "https://www.producthunt.com/products/clemta#clemta"
+    },
+    {
+        "Name": "EpicTopia AI",
+        "Description": "An AI personal pursuit manager to plan, journal, and grow",
+        "Website": "https://www.producthunt.com/posts/epictopia-ai-2"
+    },
+    {
+        "Name": "Type.link",
+        "Description": "Create your site from amazing widgets",
+        "Website": "https://www.producthunt.com/products/type-link#type-link"
+    },
+    {
+        "Name": "Soul Tarot",
+        "Description": "Explore your future, solve your questions",
+        "Website": "https://www.producthunt.com/posts/soul-tarot"
+    },
+    {
+        "Name": "Lyzr Agent Studio",
+        "Description": "Design, build, and deploy AI agents effortlessly",
+        "Website": "https://www.producthunt.com/posts/lyzr-agent-studio"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Stella AI",
+        "Description": "Automate your daily admin tasks with Stella AI agent",
+        "Website": "https://www.producthunt.com/posts/stella-ai-2"
+    },
+    {
+        "Name": "pom",
+        "Description": "Scan products to avoid harmful or unwanted ingredients",
+        "Website": "https://www.producthunt.com/products/pom-ingredient-checker#pom"
+    },
+    {
+        "Name": "sitelifter",
+        "Description": "Optimize website pages faster with actionable insights.",
+        "Website": "https://www.producthunt.com/products/sitelifter-com#sitelifter"
+    },
+    {
+        "Name": "/extract by Firecrawl",
+        "Description": "Get structured web data with just a prompt",
+        "Website": "https://www.producthunt.com/products/extract-by-firecrawl#extract-by-firecrawl"
+    },
+    {
+        "Name": "DROP",
+        "Description": "Your AI-driven creative hub to create, share, host with ease",
+        "Website": "https://www.producthunt.com/posts/drop-9307e411-eb98-47a7-a001-db323dd2ccee"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "NOCAGE",
+        "Description": "Startup Networking: Find Co-Founders, Grants & Funding!",
+        "Website": "https://www.producthunt.com/products/nocage#nocage"
+    },
+    {
+        "Name": "Agents Base",
+        "Description": "Grow any brand on autopilot with swarms of marketing agents",
+        "Website": "https://www.producthunt.com/products/agents-base#agents-base"
+    },
+    {
+        "Name": "CRM.io",
+        "Description": "The All-in-One AI-Powered CRM Software",
+        "Website": "https://www.producthunt.com/posts/crm-io"
+    },
+    {
+        "Name": "Oasis by BeforeSunset AI",
+        "Description": "Your AI-generated workspace for deep focus",
+        "Website": "https://www.producthunt.com/posts/oasis-by-beforesunset-ai-3"
+    },
+    {
+        "Name": "Jolt AI",
+        "Description": "AI assistant for 100k to multi-million line codebases",
+        "Website": "https://www.producthunt.com/products/jolt-ai#jolt-ai-2"
+    },
+    {
+        "Name": "Snowflake Startup Challenge",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Usage",
+        "Description": "System activity monitor for Mac and iPhone",
+        "Website": "https://www.producthunt.com/posts/usage-4"
+    },
+    {
+        "Name": "Simplehuman",
+        "Description": "Make Gmail work like Superhuman",
+        "Website": "https://www.producthunt.com/posts/simplehuman-3"
+    },
+    {
+        "Name": "Lovable Launched",
+        "Description": "Launch and discover new Lovable apps by Lovable",
+        "Website": "https://www.producthunt.com/posts/lovable-launched"
+    },
+    {
+        "Name": "Product Forums (p/)",
+        "Description": "community subreddits for every product",
+        "Website": "https://www.producthunt.com/posts/product-forums"
+    },
+    {
+        "Name": "Skyvern 2.0",
+        "Description": "Build AI browser agents in plain english",
+        "Website": "https://www.producthunt.com/posts/skyvern-2-0"
+    },
+    {
+        "Name": "Snowflake Startup Challenge",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "a0.dev",
+        "Description": "Generate full mobile apps with AI",
+        "Website": "https://www.producthunt.com/posts/a0-dev"
+    },
+    {
+        "Name": "Milestone Content Studio",
+        "Description": "AI-powered automation platform for marketing teams",
+        "Website": "https://www.producthunt.com/products/milestone-content-studio#milestone-content-studio"
+    },
+    {
+        "Name": "Agora API",
+        "Description": "API to search, purchase, and track 10M Shopify products",
+        "Website": "https://www.producthunt.com/posts/agora-api"
+    },
+    {
+        "Name": "Bulletpen",
+        "Description": "Write great essays while you yap",
+        "Website": "https://www.producthunt.com/posts/bulletpen"
+    },
+    {
+        "Name": "Persana AI Sales and Voice Agents",
+        "Description": "Your AI-powered workers driving revenue 24/7",
+        "Website": "https://www.producthunt.com/products/persana-ai-for-prospecting#persana-ai-sales-and-voice-agents"
+    },
+    {
+        "Name": "Intercom for Startups",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Aivy",
+        "Description": "Digital co-worker for HR teams",
+        "Website": "https://www.producthunt.com/posts/aivy"
+    },
+    {
+        "Name": "ClipZap",
+        "Description": "An AI face swapper for videos and images",
+        "Website": "https://www.producthunt.com/products/clipzap#clipzap"
+    },
+    {
+        "Name": "Sense",
+        "Description": "AI search for all your apps and automatic work hub",
+        "Website": "https://www.producthunt.com/posts/sense-14"
+    },
+    {
+        "Name": "Llamao",
+        "Description": "Private & offline alternative to ChatGPT on your device",
+        "Website": "https://www.producthunt.com/posts/llamao"
+    },
+    {
+        "Name": "Needle",
+        "Description": "Enable AI-search across all your data in seconds",
+        "Website": "https://www.producthunt.com/products/needle-3#needle-5"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Movestax",
+        "Description": "The serverless cloud platform for modern builders",
+        "Website": "https://www.producthunt.com/posts/movestax-2"
+    },
+    {
+        "Name": "Le Chat",
+        "Description": "Your AI assistant for life and work",
+        "Website": "https://www.producthunt.com/posts/le-chat-2"
+    },
+    {
+        "Name": "Spellar for iOS",
+        "Description": "AI Conversation companion and note taker in your pocket",
+        "Website": "https://www.producthunt.com/products/speechy-1-0#spellar-for-ios-3"
+    },
+    {
+        "Name": "Marketeam",
+        "Description": "Meet Jane, your new content marketing & SEO expert",
+        "Website": "https://www.producthunt.com/products/marketeam-ai#marketeam"
+    },
+    {
+        "Name": "Rapport Studio",
+        "Description": "Bring your AI avatars to life with your own unique branding",
+        "Website": "https://www.producthunt.com/products/rapport-self-service#rapport-studio"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "KIVA",
+        "Description": "The AI-powered SEO agent for agencies, SMEs & startups",
+        "Website": "https://www.producthunt.com/posts/kiva-3"
+    },
+    {
+        "Name": "F*ckSubscription",
+        "Description": "Simple, one-time payment alternatives to popular SaaS tools.",
+        "Website": "https://www.producthunt.com/products/f-cksubscription#f-cksubscription"
+    },
+    {
+        "Name": "Rentality",
+        "Description": "First Web3 Car Rental: P2P, transparent, secure, AI-driven",
+        "Website": "https://www.producthunt.com/posts/rentality-2"
+    },
+    {
+        "Name": "BookRead",
+        "Description": "AI-powered E-Reader that makes reading effortless",
+        "Website": "https://www.producthunt.com/products/bookread#bookread"
+    },
+    {
+        "Name": "Notion Faces",
+        "Description": "Bring your custom self-portrait in Notion, officially",
+        "Website": "https://www.producthunt.com/products/notion#notion-faces"
+    },
+    {
+        "Name": "Deepgram",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Grep by Vercel",
+        "Description": "Code search made fast",
+        "Website": "https://www.producthunt.com/products/grep-by-vercel#grep-by-vercel"
+    },
+    {
+        "Name": "Lingocat",
+        "Description": "Become fluent faster through conversational practice",
+        "Website": "https://www.producthunt.com/products/lingocat#lingocat"
+    },
+    {
+        "Name": "openRCP",
+        "Description": "Your favorite recipes, but without the ads",
+        "Website": "https://www.producthunt.com/posts/openrcp"
+    },
+    {
+        "Name": "Your Interviewer",
+        "Description": "Generate authentic content in seconds.",
+        "Website": "https://www.producthunt.com/products/your-interviewer#your-interviewer"
+    },
+    {
+        "Name": "Pimosa",
+        "Description": "Simple video, photo & music editing tools in one app",
+        "Website": "https://www.producthunt.com/posts/pimosa"
+    },
+    {
+        "Name": "Notion for Startups",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    },
+    {
+        "Name": "Google AI Studio",
+        "Description": "Push Gemini to the limits of what Al can do",
+        "Website": "https://www.producthunt.com/products/google#google-ai-studio"
+    },
+    {
+        "Name": "Tough Tongue AI 2.0",
+        "Description": "A multimodal agent to create, share and rehearse scenarios",
+        "Website": "https://www.producthunt.com/posts/tough-tongue-ai-2-0"
+    },
+    {
+        "Name": "Humiris - Mixture of AI",
+        "Description": "Custom reasoning model for accurate AI agents",
+        "Website": "https://www.producthunt.com/products/mixture-of-ai#humiris-mixture-of-ai"
+    },
+    {
+        "Name": "SaaS Blueprint",
+        "Description": "Understand your business through the eyes of a VC",
+        "Website": "https://www.producthunt.com/products/defiant#saas-blueprint"
+    },
+    {
+        "Name": "Croct",
+        "Description": "Component CMS with built-in AB testing and personalization",
+        "Website": "https://www.producthunt.com/posts/croct"
+    },
+    {
+        "Name": "Auth0 by Okta",
+        "Description": "N/A",
+        "Website": "https://www.producthunt.com/sponsor"
+    }
+]

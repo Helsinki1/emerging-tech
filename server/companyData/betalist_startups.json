@@ -1,0 +1,602 @@
+[
+    {
+        "Name": "Breely",
+        "Description": "Breely helps to manage and automate every customer interaction so you can focus on the core of your business. Now you can create lead forms to capture client information, offer class and workshop booking, offer booking 1:1 appointments, and sell memberships.",
+        "Website": "https://betalist.com/startups/breely/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "SpeakclearlyAI",
+        "Description": "SpeakclearlyAI is an AI-powered audio enhancement tool designed to help creators, professionals, and businesses achieve crystal-clear, professional-quality audio effortlessly. Whether you're recording podcasts, videos, presentations, or interviews, SpeakclearlyAI removes filler words (like \"ums\" and \"uhs\"), eliminates background noise, and enhances pacing—all with the power of advanced artificial intelligence.",
+        "Website": "https://betalist.com/startups/speakclearlyai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Cert0",
+        "Description": "Cert0 is a unique platform that lets you prove that you created a file at a specific time by generating a unique digital fingerprint (hash) on your device and storing it on the blockchain. This means no one can change or fake the record, and you get a certificate with a timestamp to show ownership. It’s simple—upload a file, get a proof, and keep it for legal protection or personal assurance. Whether you're a creator, freelancer, or business, Cert0 helps you secure your work without relying on third parties or complicated processes.",
+        "Website": "https://betalist.com/startups/cert0/visit",
+        "Contact Email": "info@cert0.com"
+    },
+    {
+        "Name": "BlocksFusion",
+        "Description": "Blocksfusion is a digital construction platform combining real-time collaboration, GitHub-style version control, and a seamless bridge between virtual and physical building. Users can create, edit, and share Lego-style projects, explore them in simulation modes, and order real bricks to bring their designs to life. Whether you're a solo builder, a team collaborator, or an educator, Blocksfusion redefines how we build, play, and innovate together.",
+        "Website": "https://betalist.com/startups/blocksfusion/visit",
+        "Contact Email": "hello@blocksfusion.com"
+    },
+    {
+        "Name": "Amoeba AI",
+        "Description": "Amoeba AI is the neuro-symbolic AI powered data scientist for GTM teams. It allows marketing and revenue teams to be able to analyze data at scale, design experiments related to efforts, simulate scenarios - all in the name of getting the most out of their data and efforts. The underlying architecture goes beyond LLMs to give you the why and the how instead of just the what.",
+        "Website": "https://betalist.com/startups/amoeba-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Paperplane",
+        "Description": "Paperplane is your perfect starter-kit to build your next big thing in days, not weeks. Simple, yet powerful, clear and concise, utilizing powerful tools and libraries to not just get you started, but to get you started right.",
+        "Website": "https://betalist.com/startups/leafphp/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "RenderCut",
+        "Description": "RenderCut is a SaaS tool designed for video editors and content creators. With just a few clicks, you can add stylish, professional subtitles to your videos, making them more engaging, accessible, and ready to reach a wider audience. Whether you're a beginner or a seasoned creator, RenderCut saves time, boosts engagement, and ensures your videos stand out.",
+        "Website": "https://betalist.com/startups/rendercut/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Searchlens",
+        "Description": "Searchlens is a powerful keyword discovery and topic research software designed to help businesses, content creators, and marketers stay ahead in the competitive digital landscape. With just a single seed phrase, it generates thousands of highly targeted, long-tail niche keywords in seconds. It provides comprehensive and profound SEO data, rather than generic SEO data provided by Ubersuggest, Ahrefs and others.",
+        "Website": "https://betalist.com/startups/searchlens/visit",
+        "Contact Email": "support@searchlens.com"
+    },
+    {
+        "Name": "OneOver",
+        "Description": "OneOver is a platform that brings the best AI tools together in one place. Access top models for text and image generation, compare results, and stay on top of the latest breakthroughs—all with one subscription. It’s simple, customizable, and designed to make working with AI easy and efficient.",
+        "Website": "https://betalist.com/startups/oneover/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Boxsy",
+        "Description": "Boxsy is on a mission to empower startups and the entire ecosystem by providing a seamless operational hub designed to make entrepreneurship more successful. Our vision is to simplify the operational complexities that often hinder growth, offering founders and their partners the tools, insights, and connectivity they need to thrive. From streamlined reporting to expert-backed solutions, Boxsy is here to help startups scale smarter and build stronger, more impactful businesses.",
+        "Website": "https://betalist.com/startups/boxsy/visit",
+        "Contact Email": "sales@boxsy.io"
+    },
+    {
+        "Name": "QubeGuard",
+        "Description": "QubeGuard is an innovative security solution designed specifically to protect API endpoints from a spectrum of cyber threats. It effectively shields APIs by detecting and blocking malicious activities in real time, ensuring the integrity and confidentiality of data transmissions. With its advanced security features, QubeGuard provides businesses with critical tools to monitor, analyze, and respond to threats, thereby maintaining a secure digital environment. Easy to integrate and manage, it supports a proactive approach to cybersecurity, helping organizations safeguard their API infrastructure against emerging and sophisticated attacks.",
+        "Website": "https://betalist.com/startups/qubeguard/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Zparse",
+        "Description": "Zparse is an AI-powered, no-code platform helping business users transform, integrate, and monitor data without technical skills. It solves challenges like: - Manually transferring data (e.g., copy-pasting XLSX, CSV, etc.), - Waiting on engineers for system connections, - Manually onboarding customer data, - Linking systems with external apps via costly custom connectors. Unlike most competitors in the ETL/Reverse ETL space, Zparse is built for non-technical teams. It's intuitive design and AI simplify mapping, integrating, and monitoring data from any source to any destination in just a few clicks. With Zparse, teams save hours, rely less on engineers, and streamline workflows.",
+        "Website": "https://betalist.com/startups/zparse/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Apparatus.ai",
+        "Description": "Apparatus.ai is an AI-powered platform designed to revolutionize business forecasting, marketing, and operations. It offers intuitive tools for revenue forecasting, scenario planning, and campaign optimization, enabling businesses to make smarter, data-driven decisions. With Apparatus.ai, users can easily model business outcomes, adapt strategies in real-time, and collaborate effectively to drive growth.",
+        "Website": "https://betalist.com/startups/apparatus-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Memenome",
+        "Description": "Memenome is a creative learning tool leveraging AI to transform PDFs into Brain Rot videos",
+        "Website": "https://betalist.com/startups/memenome/visit",
+        "Contact Email": "jackie@memenome.ai"
+    },
+    {
+        "Name": "Zenti",
+        "Description": "Zenti is an AI-driven feedback platform that simplifies how businesses gather and analyze customer input. Real-time insights, instant rewards, and multi-channel distribution boost participation and reveal key trends at every touchpoint.",
+        "Website": "https://betalist.com/startups/zenti/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "ValidateAIdea",
+        "Description": "ValidateAIdea is a SaaS platform designed to help founders and entrepreneurs assess the viability of their business ideas. By leveraging advanced AI , ValidateAIdea generates comprehensive reports that evaluate key aspects such as market demand, competition, and business model etc. It also find leads for your idea to connect to potential customer. You also get 1 credit free on signup.",
+        "Website": "https://betalist.com/startups/validateaidea/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Gistr",
+        "Description": "Gistr is a powerful knowledge management platform designed to help users organize, annotate, and share information effortlessly. It combines the simplicity of bookmarking and note-taking with advanced AI features for summarization, insights, and enhanced productivity. Users can create curated playlists of their notes and bookmarks, tag content for easy categorization, and share ideas on a social feed or keep them private. Ideal for professionals, students, and teams, Gistr transforms how you manage knowledge, making it accessible, collaborative, and personalized across devices.",
+        "Website": "https://betalist.com/startups/gistr/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "BuouNext",
+        "Description": "BuouNext is an all-in-one Next.js starter kit designed for developers who want to build fast, feature-rich web apps.",
+        "Website": "https://betalist.com/startups/buounext/visit",
+        "Contact Email": "example@email.com"
+    },
+    {
+        "Name": "WeatherXu",
+        "Description": "WeatherXu is a free weather API.",
+        "Website": "https://betalist.com/startups/weatherxu/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Stevie AI",
+        "Description": "Stevie AI is an SEO tool that helps startups and small businesses get much-needed organic traffic from Google using the same methods SEO Agencies use (costing $1500+/month). The methods are simple: We automated the workflows agencies use to get the best result for SEO and turned them into simple, one-click, tasks that can take you from a URL to optimal keywords to generating blogs and landing page texts - the whole process tasks less than 3 minutes (check out the video for a demo!)",
+        "Website": "https://betalist.com/startups/stevie-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "TechBlitz",
+        "Description": "TechBlitz is an open-source, mobile-friendly web development platform that empowers aspiring developers through short-form, real-world coding content to ensure they become better developer. AI-powered coding roadmaps, on-demand question help and coding report creation ensures developers get a unique, personalized expierence.",
+        "Website": "https://betalist.com/startups/techblitz-2/visit",
+        "Contact Email": "team@techblitz.dev"
+    },
+    {
+        "Name": "Retellio",
+        "Description": "Retellio is an AI briefing tool for leaders who can't listen to every call. Retellio makes it easy for B2B founders and leaders to stay connected to customers by distilling hours of feedback into critical insights—unfiltered, curated, and delivered via private RSS feed to your fav podcast app so you can listen anywhere and anytime. It's a powerful way to hear what matters most without losing context or the customer’s voice.",
+        "Website": "https://betalist.com/startups/retellio/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "PlugAI",
+        "Description": "PlugAI is the fastest way to integrate AI into your project.",
+        "Website": "https://betalist.com/startups/plugai/visit",
+        "Contact Email": "hi@plugai.io"
+    },
+    {
+        "Name": "Memora",
+        "Description": "Memora gives AI the ability to recall memories during interactions, just like humans do subconsciously. For now, it’s just text-based memories, but our vision extends to the full spectrum of human memory: emotions, audio, video.",
+        "Website": "https://betalist.com/startups/memora/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Uplyt.io",
+        "Description": "Uplyt.io is a data analytics tool designed for marketers, consultants, and small-to-medium businesses struggling to extract actionable insights from Google Analytics 4 and Google Ads. Often, key data points that could drive business growth go unnoticed or are too complex to interpret. Uplyt bridges this gap by making analytics simple, accessible, and actionable.",
+        "Website": "https://betalist.com/startups/uplyt-io/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Recap AI",
+        "Description": "Recap is an AI-powered meeting assistant designed to help busy professionals and teams save time and stay organized. It automatically transcribes your meetings, generates concise summaries, and highlights actionable insights so you can focus on what truly matters. Whether you’re a solo entrepreneur or part of a growing team, Recap simplifies the way you manage meeting notes, track important decisions, and share key outcomes—effortlessly.",
+        "Website": "https://betalist.com/startups/recap-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Feedblox",
+        "Description": "Feedblox is a tool for collecting user insights easily. Whether you need quick feedback through embedded widgets or detailed surveys through dedicated pages, we've got you covered. What makes FeedBlox different:",
+        "Website": "https://betalist.com/startups/feedblox/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "bord",
+        "Description": "bord is a gaming community app designed for people who are unable to sync up their schedules with others, and are impacted by the cost of living pressures. With well over half of the games owned being unplayed or rarely touched, bord gives people a platform where they can encourage new ways to play their lesser-used titles, and find more enjoyment if they're going solo.",
+        "Website": "https://betalist.com/startups/bord/visit",
+        "Contact Email": "bord@bordapp.xyz"
+    },
+    {
+        "Name": "Tradebreath",
+        "Description": "Tradebreath help traders improve strategy stability by simulate trading.",
+        "Website": "https://betalist.com/startups/tradebreath/visit",
+        "Contact Email": "support@tradebreath.com"
+    },
+    {
+        "Name": "The Jolt App",
+        "Description": "Jolt: Transform Your Digital Life\nJolt empowers you to take control of your screen time, reduce distractions, and boost productivity with features like app blockers, focus timers, and personalized challenges. Whether you’re managing work, study, or personal goals, Jolt offers tools to track usage, automate app restrictions, and foster healthier habits. Compete with friends in social challenges, embrace Unbreakable Mode for focused sessions, and join a community prioritizing digital wellbeing. From professionals to families, Jolt is your all-in-one solution for a balanced and intentional digital lifestyle. Download Jolt today and transform the way you live, work, and connect!",
+        "Website": "https://betalist.com/startups/the-jolt-app/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "DoseMed",
+        "Description": "DoseMed is a medication reminder and tracker application. It helps you to keep history of your dosages. You can easily create reminders and get notified when you need to take your pills. It also includes more than 15.000 medication information (warnings, drug interactions, adverse reactions, usage and dosage etc.)",
+        "Website": "https://betalist.com/startups/dosemed/visit",
+        "Contact Email": "support@dosemedapp.com"
+    },
+    {
+        "Name": "GeniusGate",
+        "Description": "GeniusGate is a DIY copywriting tool designed to function like a professional copywriter. It asks specific questions about your business, gathers your inputs, and generates personalized, tailored copy to meet your needs.",
+        "Website": "https://betalist.com/startups/geniusgate/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Aiverse Design",
+        "Description": "Aiverse Design is the largest library of AI-UX interactions, curated from top companies designing for AI. It offers over 150 AI-UX interactions, including conversational, assistive, invisible, and ambient patterns. The platform helps designers and product teams upskill in AI-driven design, providing unique insights to stay ahead in the evolving AI-UX landscape. By joining AIverse.design, you can access a comprehensive collection of AI-UX interactions and patterns, enhancing your ability to design intelligent experiences.",
+        "Website": "https://betalist.com/startups/aiverse-design/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Yes Sensei!",
+        "Description": "Yes Sensei! is your go-to app for shaping your mind and conquering your day. With daily quotes, inspiring insights, and wisdom from our Sensei, it delivers the mindset boost you need to thrive in everyday life.",
+        "Website": "https://betalist.com/startups/yes-sensei/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "IndieLaunch",
+        "Description": "IndieLaunch is a Next.js landing page template designed for indie hackers and startup founders to quickly create a professional web presence. It aims to help entrepreneurs bypass technical complexities and focus on validating their product ideas. The template offers a quick setup with Tailwind CSS and pre-designed components, allowing users to launch a landing page in minutes. The template provides a basic structure for showcasing a product or idea.",
+        "Website": "https://betalist.com/startups/getindielaunch/visit",
+        "Contact Email": "rtr@rtrdev.me"
+    },
+    {
+        "Name": "IndieVoice",
+        "Description": "IndieVoice is a platform, where indie hackers give and get detailed feedbacks on their SaaS projects. It solves the struggle to obtain quality feedback from like-minded people. At IndieVoice giving feedback becomes a currency, which lets you getting quality feedbacks on your own project. This is a community where everone gets better off at the end! Our supervised favor-based system guarantees detailed insights from all aspects of your project including: idea, UI, UX, core features, performance etc. At IndieVoice there are no inequalities triggered by popularity, past achievements, X audience. Only the quality of your work matters!",
+        "Website": "https://betalist.com/startups/indievoice/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Pitch Perfect - VC Pitch",
+        "Description": "Pitch Perfect - VC Pitch; Ready to close your next funding round in Q1'25? Mentara is here to help! Get stage specific pitch deck analysis, practice with the likes of Andreessen or Thiel.",
+        "Website": "https://betalist.com/startups/pitch-perfect-vc-pitch/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Augmeta",
+        "Description": "Augmeta is a purpose-built workspace for engineering and product managers to infuse AI in their work.",
+        "Website": "https://betalist.com/startups/augmeta/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Boring Strategy",
+        "Description": "Boring Strategy is a unique database dedicated to helping startup founders make sense of the marketing landscape. By tapping into a collection of successful marketing strategies from real startups, you can navigate your path to growth with ease. You'll find proven approaches that others have tested, making it simple to identify what aligns with your business needs.",
+        "Website": "https://betalist.com/startups/boring-strategy/visit",
+        "Contact Email": "simone@boringstrategy.com"
+    },
+    {
+        "Name": "SEO Writing",
+        "Description": "SEOWriting.AI is an Automatic GPT tool for Blog Posts generating and publishing in 1 click. It supports 48 different languages and has a magic button feature that allows users to easily and instantly publish generated articles on their WordPress websites.",
+        "Website": "https://betalist.com/startups/seowriting-ai/visit",
+        "Contact Email": "support@seowriting.ai"
+    },
+    {
+        "Name": "Functional",
+        "Description": "Functional helps small teams manage timesheets, time off and track employee wellbeing in a simple and intuitive manner. It leverages existing team chat apps for people to clock in, clock out, ask for PTO, and rate their mood/energy levels. Functional easily fits into your existing workflow, reduces time spent on paperwork, and provides valuable insights into teams' mood and energy levels, to prevent burnouts and maximize productivity.",
+        "Website": "https://betalist.com/startups/functional/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "backlinkbot",
+        "Description": "backlinkbot lets you submit your Startup to 100+ directories in 10 minutes. Get instant traffic on your site, save days of manual work with just one click",
+        "Website": "https://betalist.com/startups/backlinkbot/visit",
+        "Contact Email": "team@theamplifyxlabs.com"
+    },
+    {
+        "Name": "Bigteam",
+        "Description": "Bigteam.ai provides all-in-one tools to establish your online presence effortlessly. Create a website in seconds, plan social media strategies, generate posts, and schedule them at optimal times to grow your following. Use our AI team to handle essential business tasks without the need for external outsourcing.",
+        "Website": "https://betalist.com/startups/bigteam-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Aftercare",
+        "Description": "Aftercare is a survey platform powered by AI, which can gather deep insights through smart follow-up questions—going beyond what traditional surveys can capture.",
+        "Website": "https://betalist.com/startups/aftercare/visit",
+        "Contact Email": "aidan@getaftercare.com"
+    },
+    {
+        "Name": "European Remote",
+        "Description": "European Remote is a job notification service for quality remote opportunities available for tech folks in Europe.",
+        "Website": "https://betalist.com/startups/european-remote/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Blok",
+        "Description": "Blok is a practical solution for reducing phone distractions by introducing a physical barrier to app access. To unlock apps, you must physically tap the device, creating an extra step that helps prevent impulsive usage. The Blok app lets you manage which apps are blocked and customize your settings. By separating Blok from your usual phone use area, you ensure that distractions are kept at bay. This physical approach promotes a more focused and productive environment. Blok is ideal for improving your screen time habits and staying on task. Embrace a new way to manage distractions with Blok’s innovative design.",
+        "Website": "https://betalist.com/startups/blok/visit",
+        "Contact Email": "dani@blok.so"
+    },
+    {
+        "Name": "TinkTide",
+        "Description": "TinkTide is a platform that empowers you to take even simple concepts and expand them into fully developed business strategies. TinkTide helps entrepreneurs visualize, organize, and connect ideas and thoughts seamlessly.",
+        "Website": "https://betalist.com/startups/tinktide/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "SERPtag",
+        "Description": "SERPtag is a comprehensive tool designed to help businesses track their keywords and competitor keywords with speed and accuracy. Our platform includes a keyword planner for in-depth research, and a unique SERPscore feature that provides insights into your keyword performance. With SERPtag, businesses can make data-driven decisions to enhance their online presence and stay ahead of the competition, all at an affordable price.",
+        "Website": "https://betalist.com/startups/mbmbbm/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Locutio",
+        "Description": "Locutio is a Translations Management System powered by AI. Locutio is a service that goes through your project's code, moves all hard-coded strings to translation files and then translates them to other languages using state of the art AI.",
+        "Website": "https://betalist.com/startups/locutio/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Palantara",
+        "Description": "Palantara is a modeling and forecasting platform. It allows you to run simulations on your own business and predict impacts of your actions years in advance. Analytics tell you where you are now. Palantara tells you where you will be in the future.",
+        "Website": "https://betalist.com/startups/palantara/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "InterWiz AI",
+        "Description": "InterWiz is an AI interviewer that never tires, never plays favourites & ensures consistent evaluations. InterWiz enables companies to hire top talent quickly, effortlessly and with superior quality. We're here to help you build dream teams, minus the nightmares.",
+        "Website": "https://betalist.com/startups/interwiz-ai-2/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "KoppieOS",
+        "Description": "KoppieOS has smart and personalize launcher than others.You can Chat with GPT-4 and local LLMs from your personalized desktop space with web access, complete with a 3D AI Avatar and custom wallpapers.",
+        "Website": "https://betalist.com/startups/koppieos/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Rise-X",
+        "Description": "Rise-X is a multi-party workflow solution that connects and automates business ecosystems using common ledger (blockchain) technologies. By digitizing and optimizing interactions among internal teams, suppliers, and customers, Rise-X enhances productivity and ensures end-to-end transparency.",
+        "Website": "https://betalist.com/startups/rise-x/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Oneloop",
+        "Description": "Oneloop is an API key infrastructure for your APIs. API products require use of keys but everyone builds it internally without considerations for security, scalability and time to market.",
+        "Website": "https://betalist.com/startups/oneloop/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Chow",
+        "Description": "Chow is a Headless CMS with a flow builder. Chow allows the user to create a complete backend from the no code platform. The flow builder can be used to create custom endpoints that can elaborate, format and aggregate data directly from Chow or from external sources.",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "WEB33",
+        "Description": "Web33 is a free web analytics with full session replays for startups to see how visitors are using your site. Increase company revenue and boost conversions by analyzing what your users focus on.",
+        "Website": "https://betalist.com/startups/web33/visit",
+        "Contact Email": "info@cncguide.co"
+    },
+    {
+        "Name": "Pitch Deck Inspo",
+        "Description": "Pitch Deck Inspo is a curated library of world-class fundraising decks from real companies. You can search examples of a specific slide (e.g. market, competition) and immediately start using it in Google Drive.",
+        "Website": "https://betalist.com/startups/pitch-deck-inspo/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Unique.Domains",
+        "Description": "Unique Domains provides access to a constantly updated database of over 1.4 million premium domain names available for purchase. Our collection primarily features unique, one- or two-word English domains, ensuring they are highly memorable, easy to type, and SEO-friendly due to their simplicity and keyword relevance. The scarcity and high demand for these domains enhance their premium appeal, making them not only valuable for immediate use but also for future resale.",
+        "Website": "https://betalist.com/startups/unique-domains/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "AgainstData",
+        "Description": "AgainstData is an app that helps you clean your inbox in under 5 minutes and send deletion requests to companies you no longer use.",
+        "Website": "https://betalist.com/startups/againstdata/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Founderepo",
+        "Description": "Founderepo is a directory of startup programs and hubs worldwide.",
+        "Website": "https://betalist.com/startups/founderepo/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "GetByte",
+        "Description": "GetByte is better visibility, higher sales with our new ranking algorithm!",
+        "Website": "https://betalist.com/startups/getbyte/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Teamtown",
+        "Description": "Teamtown is an unlimited design subscription service for marketing teams. Get access to an entire design team including a project manager for a fraction of the cost. Upgrade, downgrade, pause or cancel at anytime depending on your current needs.",
+        "Website": "https://betalist.com/startups/teamtown/visit",
+        "Contact Email": "hello@teamtown.co"
+    },
+    {
+        "Name": "Tomus",
+        "Description": "Introducing Tomus, designed to revolutionize the way you reference and share your creations. With a holistic approach, Tomus integrates the tools you need to create documents, organizes them seamlessly, and enhances interaction in innovative ways.",
+        "Website": "https://betalist.com/startups/tomus/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "You",
+        "Description": "You is available on iPhone, iPad, and Mac, ensuring you can foster positivity and growth wherever you are. Utilize daily affirmations across every device to maintain focus on your goals.",
+        "Website": "https://betalist.com/startups/you/visit",
+        "Contact Email": "hello@ayalabs.xyz"
+    },
+    {
+        "Name": "Unrevealed",
+        "Description": "Unrevealed lets you 100x your release process.",
+        "Website": "https://betalist.com/startups/unrevealed/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Bright",
+        "Description": "Bright bundles all the core health tracking functions to create the full picture of a user's health. This is just the first step in a much longer journey that will unify health and food into one platform.",
+        "Website": "https://betalist.com/startups/thebrightapp/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Pandalign",
+        "Description": "Pandalign is Customer-Centric Product Development. Why do products fail? Some of the common issues are a lack of customer understanding, the disconnect between engineering & go-to-market teams, wasted resources and unclear objectives.",
+        "Website": "https://betalist.com/startups/pandalign/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "BashVault",
+        "Description": "BashVault is a lightweight TUI (terminal UI) app that runs in full screen mode in your chosen emulator. It allows you to import local or remote resources, keep them in sync easily, manage them using a visual interface, and run them by simply pressing [ENTER].",
+        "Website": "https://betalist.com/startups/bashvault/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Screen Story",
+        "Description": "Screen Story; Make beautiful screen recordings, effortlessly. The easiest way to create video demos, tutorials, education videos, gifs, and promo videos for product hunt. Used by individual contributors and awesome companies.",
+        "Website": "https://betalist.com/startups/screen-story/visit",
+        "Contact Email": "team@screenstory.io"
+    },
+    {
+        "Name": "Loadbalancer ADC Portal",
+        "Description": "Loadbalancer ADC Portal is the easiest way to manage all of you load balancers one place. Helping you Organize, Access, Maintain, Backup and Keep your Load Balancers Secure.",
+        "Website": "https://betalist.com/startups/loadbalancer-adc-portal/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Sensey AI",
+        "Description": "Sensey AI is a platform that enriches market and competitive data with AI. It helps startups find product-market fit. Get deep insights on your competitors. Get full market analysis and real-time competitor monitoring. Use these to guide your product, marketing, and sales. Make data-driven decisions and gain a competitive edge.",
+        "Website": "https://betalist.com/startups/sensey-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Sideups",
+        "Description": "Sideups is a community of creators and enthusiasts who are passionate about launching and growing their side-startups.",
+        "Website": "https://betalist.com/startups/sideups/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Guidejar",
+        "Description": "Guidejar, powered by it's browser extension, turns any product workflow into a step-by-step interactive guide, complete with text, links and annotated screenshots. These guides can then be embedded on any webpage or be shared as links.",
+        "Website": "https://betalist.com/startups/guidejar/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Workflow",
+        "Description": "Workflow is the only project management platform built specifically for teams that create visual content. You start by creating tasks, similar to Asana or Trello, but that's where the similarities end.",
+        "Website": "https://betalist.com/startups/workflow-design/visit",
+        "Contact Email": "hello@workflow.design"
+    },
+    {
+        "Name": "PocketPlan",
+        "Description": "PocketPlan is an easy-to-use platform, where you can track your income, expenses and plan your financial future. Your financial freedom starts here.",
+        "Website": "https://betalist.com/startups/pocketplan/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Style AI",
+        "Description": "Meet Levi. Your new AI assistant that can make a fully customized website faster than you can read this post. He even understands custom requests and changes! Try it for free now - no signup required.",
+        "Website": "https://betalist.com/startups/style-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Parea AI",
+        "Description": "Parea AI provides tools for evaluating, testing, and monitoring LLM-powered applications. To build high-performing AI applications, developers need quantifiable and actionable insights into the behavior of LLMs.",
+        "Website": "https://betalist.com/startups/parea-ai/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "Bamboo Metrics",
+        "Description": "Bamboo Metrics sends you a daily or weekly email with data and trends from all your key systems. That could be... - MRR and Revenues from Stripe - Events from Google Analytics - Top pages and queries from Search Console - New calls and qualified leads from your CRM - Sales deals with no activity - Tasks from your project mangement tool due this week",
+        "Website": "https://betalist.com/startups/bamboo-metrics/visit",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    },
+    {
+        "Name": "N/A",
+        "Description": "N/A",
+        "Website": "N/A",
+        "Contact Email": "N/A"
+    }
+]

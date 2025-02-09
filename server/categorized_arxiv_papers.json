@@ -1,0 +1,1250 @@
+{
+    "Robotics & Automation": [
+        {
+            "title": "SMART: Advancing Scalable Map Priors for Driving Topology Reasoning",
+            "summary": "Topology reasoning is crucial for autonomous driving as it enables\ncomprehensive understanding of connectivity and relationships between lanes and\ntraffic elements. While recent approaches have shown success in perceiving\ndriving topology using vehicle-mounted sensors, their scalability is hindered\nby the reliance on training data captured by consistent sensor configurations.\nWe identify that the key factor in scalable lane perception and topology\nreasoning is the elimination of this sensor-dependent feature. To address this,\nwe propose SMART, a scalable solution that leverages easily available\nstandard-definition (SD) and satellite maps to learn a map prior model,\nsupervised by large-scale geo-referenced high-definition (HD) maps independent\nof sensor settings. Attributed to scaled training, SMART alone achieves\nsuperior offline lane topology understanding using only SD and satellite\ninputs. Extensive experiments further demonstrate that SMART can be seamlessly\nintegrated into any online topology reasoning methods, yielding significant\nimprovements of up to 28% on the OpenLane-V2 benchmark.",
+            "authors": [
+                "Junjie Ye",
+                "David Paz",
+                "Hengyuan Zhang",
+                "Yuliang Guo",
+                "Xinyu Huang",
+                "Henrik I. Christensen",
+                "Yue Wang",
+                "Liu Ren"
+            ],
+            "published": "2025-02-06T18:59:57Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04329v1"
+        },
+        {
+            "title": "Learning Real-World Action-Video Dynamics with Heterogeneous Masked\n  Autoregression",
+            "summary": "We propose Heterogeneous Masked Autoregression (HMA) for modeling\naction-video dynamics to generate high-quality data and evaluation in scaling\nrobot learning. Building interactive video world models and policies for\nrobotics is difficult due to the challenge of handling diverse settings while\nmaintaining computational efficiency to run in real time. HMA uses\nheterogeneous pre-training from observations and action sequences across\ndifferent robotic embodiments, domains, and tasks. HMA uses masked\nautoregression to generate quantized or soft tokens for video predictions.\n\\ourshort achieves better visual fidelity and controllability than the previous\nrobotic video generation models with 15 times faster speed in the real world.\nAfter post-training, this model can be used as a video simulator from low-level\naction inputs for evaluating policies and generating synthetic data. See this\nlink https://liruiw.github.io/hma for more information.",
+            "authors": [
+                "Lirui Wang",
+                "Kevin Zhao",
+                "Chaoqi Liu",
+                "Xinlei Chen"
+            ],
+            "published": "2025-02-06T18:38:26Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04296v1"
+        },
+        {
+            "title": "Free Energy Risk Metrics for Systemically Safe AI: Gatekeeping\n  Multi-Agent Study",
+            "summary": "We investigate the Free Energy Principle as a foundation for measuring risk\nin agentic and multi-agent systems. From these principles we introduce a\nCumulative Risk Exposure metric that is flexible to differing contexts and\nneeds. We contrast this to other popular theories for safe AI that hinge on\nmassive amounts of data or describing arbitrarily complex world models. In our\nframework, stakeholders need only specify their preferences over system\noutcomes, providing straightforward and transparent decision rules for risk\ngovernance and mitigation. This framework naturally accounts for uncertainty in\nboth world model and preference model, allowing for decision-making that is\nepistemically and axiologically humble, parsimonious, and future-proof. We\ndemonstrate this novel approach in a simplified autonomous vehicle environment\nwith multi-agent vehicles whose driving policies are mediated by gatekeepers\nthat evaluate, in an online fashion, the risk to the collective safety in their\nneighborhood, and intervene through each vehicle's policy when appropriate. We\nshow that the introduction of gatekeepers in an AV fleet, even at low\npenetration, can generate significant positive externalities in terms of\nincreased system safety.",
+            "authors": [
+                "Michael Walters",
+                "Rafael Kaufmann",
+                "Justice Sefas",
+                "Thomas Kopinski"
+            ],
+            "published": "2025-02-06T17:38:45Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04249v1"
+        },
+        {
+            "title": "Memory-dependent abstractions of stochastic systems through the lens of\n  transfer operators",
+            "summary": "With the increasing ubiquity of safety-critical autonomous systems operating\nin uncertain environments, there is a need for mathematical methods for formal\nverification of stochastic models. Towards formally verifying properties of\nstochastic systems, methods based on discrete, finite Markov approximations --\nabstractions -- thereof have surged in recent years. These are found in\ncontexts where: either a) one only has partial, discrete observations of the\nunderlying continuous stochastic process, or b) the original system is too\ncomplex to analyze, so one partitions the continuous state-space of the\noriginal system to construct a handleable, finite-state model thereof. In both\ncases, the abstraction is an approximation of the discrete stochastic process\nthat arises precisely from the discretization of the underlying continuous\nprocess. The fact that the abstraction is Markov and the discrete process is\nnot (even though the original one is) leads to approximation errors. Towards\naccounting for non-Markovianity, we introduce memory-dependent abstractions for\nstochastic systems, capturing dynamics with memory effects. Our contribution is\ntwofold. First, we provide a formalism for memory-dependent abstractions based\non transfer operators. Second, we quantify the approximation error by upper\nbounding the total variation distance between the true continuous state\ndistribution and its discrete approximation.",
+            "authors": [
+                "Adrien Banse",
+                "Giannis Delimpaltadakis",
+                "Luca Laurenti",
+                "Manuel Mazo Jr.",
+                "Raphaël M. Jungers"
+            ],
+            "published": "2025-02-06T17:29:21Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04240v1"
+        },
+        {
+            "title": "Compliant Beaded-String Jamming For Variable Stiffness Anthropomorphic\n  Fingers",
+            "summary": "Achieving human-like dexterity in robotic grippers remains an open challenge,\nparticularly in ensuring robust manipulation in uncertain environments. Soft\nrobotic hands try to address this by leveraging passive compliance, a\ncharacteristic that is crucial to the adaptability of the human hand, to\nachieve more robust manipulation while reducing reliance on high-resolution\nsensing and complex control. Further improvements in terms of precision and\npostural stability in manipulation tasks are achieved through the integration\nof variable stiffness mechanisms, but these tend to lack residual compliance,\nbe bulky and have slow response times. To address these limitations, this work\nintroduces a Compliant Joint Jamming mechanism for anthropomorphic fingers that\nexhibits passive residual compliance and adjustable stiffness, while achieving\na range of motion in line with that of human interphalangeal joints. The\nstiffness range provided by the mechanism is controllable from 0.48 Nm/rad to\n1.95 Nm/rad (a 4x increase). Repeatability, hysteresis and stiffness were also\ncharacterized as a function of the jamming force. To demonstrate the importance\nof the passive residual compliance afforded by the proposed system, a\npeg-in-hole task was conducted, which showed a 60% higher success rate for a\ngripper integrating our joint design when compared to a rigid one.",
+            "authors": [
+                "Maximilian Westermann",
+                "Marco Pontin",
+                "Leone Costi",
+                "Alessandro Albini",
+                "Perla Maiolino"
+            ],
+            "published": "2025-02-06T16:25:03Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04190v1"
+        },
+        {
+            "title": "From Configuration-Space Clearance to Feature-Space Margin: Sample\n  Complexity in Learning-Based Collision Detection",
+            "summary": "Motion planning is a central challenge in robotics, with learning-based\napproaches gaining significant attention in recent years. Our work focuses on a\nspecific aspect of these approaches: using machine-learning techniques,\nparticularly Support Vector Machines (SVM), to evaluate whether robot\nconfigurations are collision free, an operation termed ``collision detection''.\nDespite the growing popularity of these methods, there is a lack of theory\nsupporting their efficiency and prediction accuracy. This is in stark contrast\nto the rich theoretical results of machine-learning methods in general and of\nSVMs in particular. Our work bridges this gap by analyzing the sample\ncomplexity of an SVM classifier for learning-based collision detection in\nmotion planning. We bound the number of samples needed to achieve a specified\naccuracy at a given confidence level. This result is stated in terms relevant\nto robot motion-planning such as the system's clearance. Building on these\ntheoretical results, we propose a collision-detection algorithm that can also\nprovide statistical guarantees on the algorithm's error in classifying robot\nconfigurations as collision-free or not.",
+            "authors": [
+                "Sapir Tubul",
+                "Aviv Tamar",
+                "Kiril Solovey",
+                "Oren Salzman"
+            ],
+            "published": "2025-02-06T15:58:30Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04170v1"
+        }
+    ],
+    "Other": [
+        {
+            "title": "Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive\n  Modality Alignment",
+            "summary": "Recent advances in large language models, particularly following GPT-4o, have\nsparked increasing interest in developing omni-modal models capable of\nunderstanding more modalities. While some open-source alternatives have\nemerged, there is still a notable lag behind specialized single-modality models\nin performance. In this paper, we present Ola, an Omni-modal language model\nthat achieves competitive performance across image, video, and audio\nunderstanding compared to specialized counterparts. The core design of Ola lies\nin its progressive modality alignment strategy that extends the supporting\nmodality of the language model progressively. Our training pipeline begins with\nthe most distinct modalities: image and text, then gradually expands the skill\nsets of the model using speech data that connects language and audio knowledge,\nand video data that connects all modalities. The progressive learning pipeline\nalso enables us to maintain a relatively small size of the cross-modal\nalignment data, making developing omni-modal from existing vision-language\nmodels easy and less costly. Moreover, to unlock an advanced interactive\nexperience like GPT-4o, we further design a sentence-wise decoding solution for\nstreaming speech generation. Extensive experiments demonstrate that Ola\nsurpasses existing open omni-modal LLMs across all modalities while achieving\nhighly competitive performance compared to state-of-the-art specialized models\nof similar sizes. We aim to make Ola a fully open omni-modal understanding\nsolution to advance future research in this emerging field. Model weights,\ncode, and data are open-sourced at https://github.com/Ola-Omni/Ola.",
+            "authors": [
+                "Zuyan Liu",
+                "Yuhao Dong",
+                "Jiahui Wang",
+                "Ziwei Liu",
+                "Winston Hu",
+                "Jiwen Lu",
+                "Yongming Rao"
+            ],
+            "published": "2025-02-06T18:59:55Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04328v1"
+        },
+        {
+            "title": "WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal\n  LLMs",
+            "summary": "In this paper, we introduce WorldSense, the first benchmark to assess the\nmulti-modal video understanding, that simultaneously encompasses visual, audio,\nand text inputs. In contrast to existing benchmarks, our WorldSense has several\nfeatures: (i) collaboration of omni-modality, we design the evaluation tasks to\nfeature a strong coupling of audio and video, requiring models to effectively\nutilize the synergistic perception of omni-modality; (ii) diversity of videos\nand tasks, WorldSense encompasses a diverse collection of 1,662 audio-visual\nsynchronised videos, systematically categorized into 8 primary domains and 67\nfine-grained subcategories to cover the broad scenarios, and 3,172 multi-choice\nQA pairs across 26 distinct tasks to enable the comprehensive evaluation; (iii)\nhigh-quality annotations, all the QA pairs are manually labeled by 80 expert\nannotators with multiple rounds of correction to ensure quality. Based on our\nWorldSense, we extensively evaluate various state-of-the-art models. The\nexperimental results indicate that existing models face significant challenges\nin understanding real-world scenarios (48.0% best accuracy). We hope our\nWorldSense can provide a platform for evaluating the ability in constructing\nand understanding coherent contexts from omni-modality.",
+            "authors": [
+                "Jack Hong",
+                "Shilin Yan",
+                "Jiayin Cai",
+                "Xiaolong Jiang",
+                "Yao Hu",
+                "Weidi Xie"
+            ],
+            "published": "2025-02-06T18:59:40Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04326v1"
+        },
+        {
+            "title": "Can Grammarly and ChatGPT accelerate language change? AI-powered\n  technologies and their impact on the English language: wordiness vs.\n  conciseness",
+            "summary": "The proliferation of NLP-powered language technologies, AI-based natural\nlanguage generation models, and English as a mainstream means of communication\namong both native and non-native speakers make the output of AI-powered tools\nespecially intriguing to linguists. This paper investigates how Grammarly and\nChatGPT affect the English language regarding wordiness vs. conciseness. A case\nstudy focusing on the purpose subordinator in order to is presented to\nillustrate the way in which Grammarly and ChatGPT recommend shorter grammatical\nstructures instead of longer and more elaborate ones. Although the analysed\nsentences were produced by native speakers, are perfectly correct, and were\nextracted from a language corpus of contemporary English, both Grammarly and\nChatGPT suggest more conciseness and less verbosity, even for relatively short\nsentences. The present article argues that technologies such as Grammarly not\nonly mirror language change but also have the potential to facilitate or\naccelerate it.",
+            "authors": [
+                "Karolina Rudnicka"
+            ],
+            "published": "2025-02-06T18:59:26Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04324v1"
+        },
+        {
+            "title": "Variation of sentence length across time and genre",
+            "summary": "The goal of this paper is threefold: i) to present some practical aspects of\nusing full-text version of Corpus of Historical American English (COHA), the\nlargest diachronic multi-genre corpus of the English language, in the\ninvestigation of a linguistic trend of change; ii) to test a widely held\nassumption that sentence length in written English has been steadily decreasing\nover the past few centuries; iii) to point to a possible link between the\nchanges in sentence length and changes in the English syntactic usage. The\nempirical proof of concept for iii) is provided by the decline in the frequency\nof the non-finite purpose subordinator in order to. Sentence length, genre and\nthe likelihood of occurrence of in order to are shown to be interrelated.",
+            "authors": [
+                "Karolina Rudnicka"
+            ],
+            "published": "2025-02-06T18:59:02Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04321v1"
+        },
+        {
+            "title": "Speak Easy: Eliciting Harmful Jailbreaks from LLMs with Simple\n  Interactions",
+            "summary": "Despite extensive safety alignment efforts, large language models (LLMs)\nremain vulnerable to jailbreak attacks that elicit harmful behavior. While\nexisting studies predominantly focus on attack methods that require technical\nexpertise, two critical questions remain underexplored: (1) Are jailbroken\nresponses truly useful in enabling average users to carry out harmful actions?\n(2) Do safety vulnerabilities exist in more common, simple human-LLM\ninteractions? In this paper, we demonstrate that LLM responses most effectively\nfacilitate harmful actions when they are both actionable and informative--two\nattributes easily elicited in multi-step, multilingual interactions. Using this\ninsight, we propose HarmScore, a jailbreak metric that measures how effectively\nan LLM response enables harmful actions, and Speak Easy, a simple multi-step,\nmultilingual attack framework. Notably, by incorporating Speak Easy into direct\nrequest and jailbreak baselines, we see an average absolute increase of 0.319\nin Attack Success Rate and 0.426 in HarmScore in both open-source and\nproprietary LLMs across four safety benchmarks. Our work reveals a critical yet\noften overlooked vulnerability: Malicious users can easily exploit common\ninteraction patterns for harmful intentions.",
+            "authors": [
+                "Yik Siu Chan",
+                "Narutatsu Ri",
+                "Yuxin Xiao",
+                "Marzyeh Ghassemi"
+            ],
+            "published": "2025-02-06T18:59:02Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04322v1"
+        },
+        {
+            "title": "sshELF: Single-Shot Hierarchical Extrapolation of Latent Features for 3D\n  Reconstruction from Sparse-Views",
+            "summary": "Reconstructing unbounded outdoor scenes from sparse outward-facing views\nposes significant challenges due to minimal view overlap. Previous methods\noften lack cross-scene understanding and their primitive-centric formulations\noverload local features to compensate for missing global context, resulting in\nblurriness in unseen parts of the scene. We propose sshELF, a fast, single-shot\npipeline for sparse-view 3D scene reconstruction via hierarchal extrapolation\nof latent features. Our key insights is that disentangling information\nextrapolation from primitive decoding allows efficient transfer of structural\npatterns across training scenes. Our method: (1) learns cross-scene priors to\ngenerate intermediate virtual views to extrapolate to unobserved regions, (2)\noffers a two-stage network design separating virtual view generation from 3D\nprimitive decoding for efficient training and modular model design, and (3)\nintegrates a pre-trained foundation model for joint inference of latent\nfeatures and texture, improving scene understanding and generalization. sshELF\ncan reconstruct 360 degree scenes from six sparse input views and achieves\ncompetitive results on synthetic and real-world datasets. We find that sshELF\nfaithfully reconstructs occluded regions, supports real-time rendering, and\nprovides rich latent features for downstream applications. The code will be\nreleased.",
+            "authors": [
+                "Eyvaz Najafli",
+                "Marius Kästingschäfer",
+                "Sebastian Bernhard",
+                "Thomas Brox",
+                "Andreas Geiger"
+            ],
+            "published": "2025-02-06T18:58:45Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04318v1"
+        },
+        {
+            "title": "ChamaleonLLM: Batch-Aware Dynamic Low-Rank Adaptation via Inference-Time\n  Clusters",
+            "summary": "Recent advances in large language models (LLMs) have shown remarkable\nperformance across diverse tasks. However, these models are typically deployed\nwith fixed weights, which limits their ability to adapt dynamically to the\nvariability inherent in real-world data during inference. This paper introduces\nChamaleonLLM, a novel framework that enables inference-time adaptation of LLMs\nby leveraging batch-aware clustering and on-the-fly generation of low-rank\nupdates. Unlike traditional fine-tuning approaches such as Low-Rank Adaptation\n(LoRA) or methods that rely on a fixed set of pre-learned uniforms (changeable\nmasks), our method dynamically generates adaptive modifications to the decoder\nweights based on the aggregated statistics of clustered batches. By\nintelligently grouping similar inputs and computing context-aware low-rank\nupdates via a hyper-network, ChamaleonLLM achieves significant performance\ngains, outperforming conventional LoRA methods while eliminating the overhead\nof maintaining multiple expert models. Our experiments highlight the potential\nof our approach to serve as a versatile and highly adaptive solution for\nlanguage model inference. ChamaleonLLM is open-sourced to ensure the\nreproducibility of our experiments:\nhttps://anonymous.4open.science/r/ChamaleonLLM/",
+            "authors": [
+                "Kamer Ali Yuksel",
+                "Hassan Sawaf"
+            ],
+            "published": "2025-02-06T18:57:06Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04315v1"
+        },
+        {
+            "title": "BOUQuET: dataset, Benchmark and Open initiative for Universal Quality\n  Evaluation in Translation",
+            "summary": "This paper presents BOUQuET, a multicentric and multi-register/domain dataset\nand benchmark, and its broader collaborative extension initiative. This dataset\nis handcrafted in non-English languages first, each of these source languages\nbeing represented among the 23 languages commonly used by half of the world's\npopulation and therefore having the potential to serve as pivot languages that\nwill enable more accurate translations. The dataset is specially designed to\navoid contamination and be multicentric, so as to enforce representation of\nmultilingual language features. In addition, the dataset goes beyond the\nsentence level, as it is organized in paragraphs of various lengths. Compared\nwith related machine translation (MT) datasets, we show that BOUQuET has a\nbroader representation of domains while simplifying the translation task for\nnon-experts. Therefore, BOUQuET is specially suitable for the open initiative\nand call for translation participation that we are launching to extend it to a\nmulti-way parallel corpus to any written language.",
+            "authors": [
+                "The Omnilingual MT Team",
+                "Pierre Andrews",
+                "Mikel Artetxe",
+                "Mariano Coria Meglioli",
+                "Marta R. Costa-jussà",
+                "Joe Chuang",
+                "David Dale",
+                "Cynthia Gao",
+                "Jean Maillard",
+                "Alex Mourachko",
+                "Christophe Ropers",
+                "Safiyyah Saleem",
+                "Eduardo Sánchez",
+                "Ioannis Tsiamas",
+                "Arina Turkatenko",
+                "Albert Ventayol-Boada",
+                "Shireen Yates"
+            ],
+            "published": "2025-02-06T18:56:37Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04314v1"
+        },
+        {
+            "title": "Great Models Think Alike and this Undermines AI Oversight",
+            "summary": "As Language Model (LM) capabilities advance, evaluating and supervising them\nat scale is getting harder for humans. There is hope that other language models\ncan automate both these tasks, which we refer to as \"AI Oversight\". We study\nhow model similarity affects both aspects of AI oversight by proposing a\nprobabilistic metric for LM similarity based on overlap in model mistakes.\nUsing this metric, we first show that LLM-as-a-judge scores favor models\nsimilar to the judge, generalizing recent self-preference results. Then, we\nstudy training on LM annotations, and find complementary knowledge between the\nweak supervisor and strong student model plays a crucial role in gains from\n\"weak-to-strong generalization\". As model capabilities increase, it becomes\nharder to find their mistakes, and we might defer more to AI oversight.\nHowever, we observe a concerning trend -- model mistakes are becoming more\nsimilar with increasing capabilities, pointing to risks from correlated\nfailures. Our work underscores the importance of reporting and correcting for\nmodel similarity, especially in the emerging paradigm of AI oversight.",
+            "authors": [
+                "Shashwat Goel",
+                "Joschka Struber",
+                "Ilze Amanda Auzina",
+                "Karuna K Chandra",
+                "Ponnurangam Kumaraguru",
+                "Douwe Kiela",
+                "Ameya Prabhu",
+                "Matthias Bethge",
+                "Jonas Geiping"
+            ],
+            "published": "2025-02-06T18:56:01Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04313v1"
+        },
+        {
+            "title": "Consistency of augmentation graph and network approximability in\n  contrastive learning",
+            "summary": "Contrastive learning leverages data augmentation to develop feature\nrepresentation without relying on large labeled datasets. However, despite its\nempirical success, the theoretical foundations of contrastive learning remain\nincomplete, with many essential guarantees left unaddressed, particularly the\nrealizability assumption concerning neural approximability of an optimal\nspectral contrastive loss solution. In this work, we overcome these limitations\nby analyzing the pointwise and spectral consistency of the augmentation graph\nLaplacian. We establish that, under specific conditions for data generation and\ngraph connectivity, as the augmented dataset size increases, the augmentation\ngraph Laplacian converges to a weighted Laplace-Beltrami operator on the\nnatural data manifold. These consistency results ensure that the graph\nLaplacian spectrum effectively captures the manifold geometry. Consequently,\nthey give way to a robust framework for establishing neural approximability,\ndirectly resolving the realizability assumption in a current paradigm.",
+            "authors": [
+                "Chenghui Li",
+                "A. Martina Neuman"
+            ],
+            "published": "2025-02-06T18:55:51Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04312v1"
+        },
+        {
+            "title": "Targeted Learning for Data Fairness",
+            "summary": "Data and algorithms have the potential to produce and perpetuate\ndiscrimination and disparate treatment. As such, significant effort has been\ninvested in developing approaches to defining, detecting, and eliminating\nunfair outcomes in algorithms. In this paper, we focus on performing\nstatistical inference for fairness. Prior work in fairness inference has\nlargely focused on inferring the fairness properties of a given predictive\nalgorithm. Here, we expand fairness inference by evaluating fairness in the\ndata generating process itself, referred to here as data fairness. We perform\ninference on data fairness using targeted learning, a flexible framework for\nnonparametric inference. We derive estimators demographic parity, equal\nopportunity, and conditional mutual information. Additionally, we find that our\nestimators for probabilistic metrics exploit double robustness. To validate our\napproach, we perform several simulations and apply our estimators to real data.",
+            "authors": [
+                "Alexander Asemota",
+                "Giles Hooker"
+            ],
+            "published": "2025-02-06T18:51:28Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04309v1"
+        },
+        {
+            "title": "HOG-Diff: Higher-Order Guided Diffusion for Graph Generation",
+            "summary": "Graph generation is a critical yet challenging task as empirical analyses\nrequire a deep understanding of complex, non-Euclidean structures. Although\ndiffusion models have recently made significant achievements in graph\ngeneration, these models typically adapt from the frameworks designed for image\ngeneration, making them ill-suited for capturing the topological properties of\ngraphs. In this work, we propose a novel Higher-order Guided Diffusion\n(HOG-Diff) model that follows a coarse-to-fine generation curriculum and is\nguided by higher-order information, enabling the progressive generation of\nplausible graphs with inherent topological structures. We further prove that\nour model exhibits a stronger theoretical guarantee than classical diffusion\nframeworks. Extensive experiments on both molecular and generic graph\ngeneration tasks demonstrate that our method consistently outperforms or\nremains competitive with state-of-the-art baselines. Our code is available at\nhttps://github.com/Yiminghh/HOG-Diff.",
+            "authors": [
+                "Yiming Huang",
+                "Tolga Birdal"
+            ],
+            "published": "2025-02-06T18:51:14Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04308v1"
+        },
+        {
+            "title": "ScoreFlow: Mastering LLM Agent Workflows via Score-based Preference\n  Optimization",
+            "summary": "Recent research has leveraged large language model multi-agent systems for\ncomplex problem-solving while trying to reduce the manual effort required to\nbuild them, driving the development of automated agent workflow optimization\nmethods. However, existing methods remain inflexible due to representational\nlimitations, a lack of adaptability, and poor scalability when relying on\ndiscrete optimization techniques. We address these challenges with ScoreFlow, a\nsimple yet high-performance framework that leverages efficient gradient-based\noptimization in a continuous space. ScoreFlow incorporates Score-DPO, a novel\nvariant of the direct preference optimization method that accounts for\nquantitative feedback. Across six benchmarks spanning question answering,\ncoding, and mathematical reasoning, ScoreFlow achieves an 8.2% improvement over\nexisting baselines. Moreover, it empowers smaller models to outperform larger\nones with lower inference costs. Project:\nhttps://github.com/Gen-Verse/ScoreFlow",
+            "authors": [
+                "Yinjie Wang",
+                "Ling Yang",
+                "Guohao Li",
+                "Mengdi Wang",
+                "Bryon Aragam"
+            ],
+            "published": "2025-02-06T18:47:49Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04306v1"
+        },
+        {
+            "title": "Strong Equivalence in Answer Set Programming with Constraints",
+            "summary": "We investigate the concept of strong equivalence within the extended\nframework of Answer Set Programming with constraints. Two groups of rules are\nconsidered strongly equivalent if, informally speaking, they have the same\nmeaning in any context. We demonstrate that, under certain assumptions, strong\nequivalence between rule sets in this extended setting can be precisely\ncharacterized by their equivalence in the logic of Here-and-There with\nconstraints. Furthermore, we present a translation from the language of several\nclingo-based answer set solvers that handle constraints into the language of\nHere-and-There with constraints. This translation enables us to leverage the\nlogic of Here-and-There to reason about strong equivalence within the context\nof these solvers. We also explore the computational complexity of determining\nstrong equivalence in this context.",
+            "authors": [
+                "Pedro Cabalar",
+                "Jorge Fandinno",
+                "Torsten Schaub",
+                "Philipp Wanko"
+            ],
+            "published": "2025-02-06T18:43:59Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04302v1"
+        },
+        {
+            "title": "MotionCanvas: Cinematic Shot Design with Controllable Image-to-Video\n  Generation",
+            "summary": "This paper presents a method that allows users to design cinematic video\nshots in the context of image-to-video generation. Shot design, a critical\naspect of filmmaking, involves meticulously planning both camera movements and\nobject motions in a scene. However, enabling intuitive shot design in modern\nimage-to-video generation systems presents two main challenges: first,\neffectively capturing user intentions on the motion design, where both camera\nmovements and scene-space object motions must be specified jointly; and second,\nrepresenting motion information that can be effectively utilized by a video\ndiffusion model to synthesize the image animations. To address these\nchallenges, we introduce MotionCanvas, a method that integrates user-driven\ncontrols into image-to-video (I2V) generation models, allowing users to control\nboth object and camera motions in a scene-aware manner. By connecting insights\nfrom classical computer graphics and contemporary video generation techniques,\nwe demonstrate the ability to achieve 3D-aware motion control in I2V synthesis\nwithout requiring costly 3D-related training data. MotionCanvas enables users\nto intuitively depict scene-space motion intentions, and translates them into\nspatiotemporal motion-conditioning signals for video diffusion models. We\ndemonstrate the effectiveness of our method on a wide range of real-world image\ncontent and shot-design scenarios, highlighting its potential to enhance the\ncreative workflows in digital content creation and adapt to various image and\nvideo editing applications.",
+            "authors": [
+                "Jinbo Xing",
+                "Long Mai",
+                "Cusuh Ham",
+                "Jiahui Huang",
+                "Aniruddha Mahapatra",
+                "Chi-Wing Fu",
+                "Tien-Tsin Wong",
+                "Feng Liu"
+            ],
+            "published": "2025-02-06T18:41:04Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04299v1"
+        },
+        {
+            "title": "Statistical guarantees for continuous-time policy evaluation: blessing\n  of ellipticity and new tradeoffs",
+            "summary": "We study the estimation of the value function for continuous-time Markov\ndiffusion processes using a single, discretely observed ergodic trajectory. Our\nwork provides non-asymptotic statistical guarantees for the least-squares\ntemporal-difference (LSTD) method, with performance measured in the first-order\nSobolev norm. Specifically, the estimator attains an $O(1 / \\sqrt{T})$\nconvergence rate when using a trajectory of length $T$; notably, this rate is\nachieved as long as $T$ scales nearly linearly with both the mixing time of the\ndiffusion and the number of basis functions employed.\n  A key insight of our approach is that the ellipticity inherent in the\ndiffusion process ensures robust performance even as the effective horizon\ndiverges to infinity. Moreover, we demonstrate that the Markovian component of\nthe statistical error can be controlled by the approximation error, while the\nmartingale component grows at a slower rate relative to the number of basis\nfunctions. By carefully balancing these two sources of error, our analysis\nreveals novel trade-offs between approximation and statistical errors.",
+            "authors": [
+                "Wenlong Mou"
+            ],
+            "published": "2025-02-06T18:39:03Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04297v1"
+        },
+        {
+            "title": "Beyond Prompt Content: Enhancing LLM Performance via Content-Format\n  Integrated Prompt Optimization",
+            "summary": "Large Language Models (LLMs) have shown significant capability across various\ntasks, with their real-world effectiveness often driven by prompt design. While\nrecent research has focused on optimizing prompt content, the role of prompt\nformatting, a critical but often overlooked dimension, has received limited\nsystematic investigation. In this paper, we introduce Content-Format Integrated\nPrompt Optimization (CFPO), an innovative methodology that jointly optimizes\nboth prompt content and formatting through an iterative refinement process.\nCFPO leverages natural language mutations to explore content variations and\nemploys a dynamic format exploration strategy that systematically evaluates\ndiverse format options. Our extensive evaluations across multiple tasks and\nopen-source LLMs demonstrate that CFPO demonstrates measurable performance\nimprovements compared to content-only optimization methods. This highlights the\nimportance of integrated content-format optimization and offers a practical,\nmodel-agnostic approach to enhancing LLM performance. Code will be available at\nhttps://github.com/HenryLau7/CFPO.",
+            "authors": [
+                "Yuanye Liu",
+                "Jiahang Xu",
+                "Li Lyna Zhang",
+                "Qi Chen",
+                "Xuan Feng",
+                "Yang Chen",
+                "Zhongxin Guo",
+                "Yuqing Yang",
+                "Cheng Peng"
+            ],
+            "published": "2025-02-06T18:36:44Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04295v1"
+        },
+        {
+            "title": "Prediction-Powered E-Values",
+            "summary": "Quality statistical inference requires a sufficient amount of data, which can\nbe missing or hard to obtain. To this end, prediction-powered inference has\nrisen as a promising methodology, but existing approaches are largely limited\nto Z-estimation problems such as inference of means and quantiles. In this\npaper, we apply ideas of prediction-powered inference to e-values. By doing so,\nwe inherit all the usual benefits of e-values -- such as anytime-validity,\npost-hoc validity and versatile sequential inference -- as well as greatly\nexpand the set of inferences achievable in a prediction-powered manner. In\nparticular, we show that every inference procedure that can be framed in terms\nof e-values has a prediction-powered counterpart, given by our method. We\nshowcase the effectiveness of our framework across a wide range of inference\ntasks, from simple hypothesis testing and confidence intervals to more involved\nprocedures for change-point detection and causal discovery, which were out of\nreach of previous techniques. Our approach is modular and easily integrable\ninto existing algorithms, making it a compelling choice for practical\napplications.",
+            "authors": [
+                "Daniel Csillag",
+                "Claudio José Struchiner",
+                "Guilherme Tegoni Goedert"
+            ],
+            "published": "2025-02-06T18:36:01Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04294v1"
+        },
+        {
+            "title": "GCE-Pose: Global Context Enhancement for Category-level Object Pose\n  Estimation",
+            "summary": "A key challenge in model-free category-level pose estimation is the\nextraction of contextual object features that generalize across varying\ninstances within a specific category. Recent approaches leverage foundational\nfeatures to capture semantic and geometry cues from data. However, these\napproaches fail under partial visibility. We overcome this with a\nfirst-complete-then-aggregate strategy for feature extraction utilizing class\npriors. In this paper, we present GCE-Pose, a method that enhances pose\nestimation for novel instances by integrating category-level global context\nprior. GCE-Pose performs semantic shape reconstruction with a proposed Semantic\nShape Reconstruction (SSR) module. Given an unseen partial RGB-D object\ninstance, our SSR module reconstructs the instance's global geometry and\nsemantics by deforming category-specific 3D semantic prototypes through a\nlearned deep Linear Shape Model. We further introduce a Global Context Enhanced\n(GCE) feature fusion module that effectively fuses features from partial RGB-D\nobservations and the reconstructed global context. Extensive experiments\nvalidate the impact of our global context prior and the effectiveness of the\nGCE fusion module, demonstrating that GCE-Pose significantly outperforms\nexisting methods on challenging real-world datasets HouseCat6D and\nNOCS-REAL275. Our project page is available at\nhttps://colin-de.github.io/GCE-Pose/.",
+            "authors": [
+                "Weihang Li",
+                "Hongli Xu",
+                "Junwen Huang",
+                "Hyunjun Jung",
+                "Peter KT Yu",
+                "Nassir Navab",
+                "Benjamin Busam"
+            ],
+            "published": "2025-02-06T18:35:13Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04293v1"
+        },
+        {
+            "title": "Every Call is Precious: Global Optimization of Black-Box Functions with\n  Unknown Lipschitz Constants",
+            "summary": "Optimizing expensive, non-convex, black-box Lipschitz continuous functions\npresents significant challenges, particularly when the Lipschitz constant of\nthe underlying function is unknown. Such problems often demand numerous\nfunction evaluations to approximate the global optimum, which can be\nprohibitive in terms of time, energy, or resources. In this work, we introduce\nEvery Call is Precious (ECP), a novel global optimization algorithm that\nminimizes unpromising evaluations by strategically focusing on potentially\noptimal regions. Unlike previous approaches, ECP eliminates the need to\nestimate the Lipschitz constant, thereby avoiding additional function\nevaluations. ECP guarantees no-regret performance for infinite evaluation\nbudgets and achieves minimax-optimal regret bounds within finite budgets.\nExtensive ablation studies validate the algorithm's robustness, while empirical\nevaluations show that ECP outperforms 10 benchmark algorithms including\nLipschitz, Bayesian, bandits, and evolutionary methods across 30\nmulti-dimensional non-convex synthetic and real-world optimization problems,\nwhich positions ECP as a competitive approach for global optimization.",
+            "authors": [
+                "Fares Fourati",
+                "Salma Kharrat",
+                "Vaneet Aggarwal",
+                "Mohamed-Slim Alouini"
+            ],
+            "published": "2025-02-06T18:34:40Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04290v1"
+        },
+        {
+            "title": "Retro-Rank-In: A Ranking-Based Approach for Inorganic Materials\n  Synthesis Planning",
+            "summary": "Retrosynthesis strategically plans the synthesis of a chemical target\ncompound from simpler, readily available precursor compounds. This process is\ncritical for synthesizing novel inorganic materials, yet traditional methods in\ninorganic chemistry continue to rely on trial-and-error experimentation.\nEmerging machine-learning approaches struggle to generalize to entirely new\nreactions due to their reliance on known precursors, as they frame\nretrosynthesis as a multi-label classification task. To address these\nlimitations, we propose Retro-Rank-In, a novel framework that reformulates the\nretrosynthesis problem by embedding target and precursor materials into a\nshared latent space and learning a pairwise ranker on a bipartite graph of\ninorganic compounds. We evaluate Retro-Rank-In's generalizability on\nchallenging retrosynthesis dataset splits designed to mitigate data duplicates\nand overlaps. For instance, for Cr2AlB2, it correctly predicts the verified\nprecursor pair CrB + Al despite never seeing them in training, a capability\nabsent in prior work. Extensive experiments show that Retro-Rank-In sets a new\nstate-of-the-art, particularly in out-of-distribution generalization and\ncandidate set ranking, offering a powerful tool for accelerating inorganic\nmaterial synthesis.",
+            "authors": [
+                "Thorben Prein",
+                "Elton Pan",
+                "Sami Haddouti",
+                "Marco Lorenz",
+                "Janik Jehkul",
+                "Tymoteusz Wilk",
+                "Cansu Moran",
+                "Menelaos Panagiotis Fotiadis",
+                "Artur P. Toshev",
+                "Elsa Olivetti",
+                "Jennifer L. M. Rupp"
+            ],
+            "published": "2025-02-06T18:34:37Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04289v1"
+        },
+        {
+            "title": "Leveraging Geolocation in Clinical Records to Improve Alzheimer's\n  Disease Diagnosis Using DMV Framework",
+            "summary": "Alzheimer's Disease (AD) early detection is critical for enabling timely\nintervention and improving patient outcomes. This paper presents a DMV\nframework using Llama3-70B and GPT-4o as embedding models to analyze clinical\nnotes and predict a continuous risk score associated with early AD onset.\nFraming the task as a regression problem, we model the relationship between\nlinguistic features in clinical notes (inputs) and a target variable (data\nvalue) that answers specific questions related to AD risk within certain topic\ncategories. By leveraging a multi-faceted feature set that includes geolocation\ndata, we capture additional environmental context potentially linked to AD. Our\nresults demonstrate that the integration of the geolocation information\nsignificantly decreases the error of predicting early AD risk scores over prior\nmodels by 28.57% (Llama3-70B) and 33.47% (GPT4-o). Our findings suggest that\nthis combined approach can enhance the predictive accuracy of AD risk\nassessment, supporting early diagnosis and intervention in clinical settings.\nAdditionally, the framework's ability to incorporate geolocation data provides\na more comprehensive risk assessment model that could help healthcare providers\nbetter understand and address environmental factors contributing to AD\ndevelopment.",
+            "authors": [
+                "Peng Zhang",
+                "Divya Chaudhary"
+            ],
+            "published": "2025-02-06T18:33:59Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04288v1"
+        },
+        {
+            "title": "A Methodology for Studying Linguistic and Cultural Change in China,\n  1900-1950",
+            "summary": "This paper presents a quantitative approach to studying linguistic and\ncultural change in China during the first half of the twentieth century, a\nperiod that remains understudied in computational humanities research. The\ndramatic changes in Chinese language and culture during this time call for\ngreater reflection on the tools and methods used for text analysis. This\npreliminary study offers a framework for analyzing Chinese texts from the late\nnineteenth and twentieth centuries, demonstrating how established methods such\nas word counts and word embeddings can provide new historical insights into the\ncomplex negotiations between Western modernity and Chinese cultural discourse.",
+            "authors": [
+                "Spencer Dean Stewart"
+            ],
+            "published": "2025-02-06T18:33:50Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04286v1"
+        },
+        {
+            "title": "DECAF: Learning to be Fair in Multi-agent Resource Allocation",
+            "summary": "A wide variety of resource allocation problems operate under resource\nconstraints that are managed by a central arbitrator, with agents who evaluate\nand communicate preferences over these resources. We formulate this broad class\nof problems as Distributed Evaluation, Centralized Allocation (DECA) problems\nand propose methods to learn fair and efficient policies in centralized\nresource allocation. Our methods are applied to learning long-term fairness in\na novel and general framework for fairness in multi-agent systems. We show\nthree different methods based on Double Deep Q-Learning: (1) A joint weighted\noptimization of fairness and utility, (2) a split optimization, learning two\nseparate Q-estimators for utility and fairness, and (3) an online policy\nperturbation to guide existing black-box utility functions toward fair\nsolutions. Our methods outperform existing fair MARL approaches on multiple\nresource allocation domains, even when evaluated using diverse fairness\nfunctions, and allow for flexible online trade-offs between utility and\nfairness.",
+            "authors": [
+                "Ashwin Kumar",
+                "William Yeoh"
+            ],
+            "published": "2025-02-06T18:29:11Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04281v1"
+        },
+        {
+            "title": "On random locally flat-foldable origami",
+            "summary": "We develop a theory of random flat-foldable origami. Given a crease pattern,\nwe consider a uniformly random assignment of mountain and valley creases,\nconditioned on the assignment being flat-foldable at each vertex. A natural\nmethod to approximately sample from this distribution is via the face-flip\nMarkov chain where one selects a face of the crease pattern uniformly at random\nand, if possible, flips all edges of that face from mountain to valley and\nvice-versa. We prove that this chain mixes rapidly for several natural families\nof origami tessellations -- the square twist, the square grid, and the\nMiura-ori -- as well as for the single-vertex crease pattern. We also compare\nlocal to global flat-foldability and show that on the square grid, a random\nlocally flat-foldable configuration is exponentially unlikely to be globally\nflat-foldable.",
+            "authors": [
+                "Thomas C. Hull",
+                "Marcus Michelen",
+                "Corrine Yap"
+            ],
+            "published": "2025-02-06T18:25:48Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04279v1"
+        },
+        {
+            "title": "Gaussian Process Regression for Inverse Problems in Linear PDEs",
+            "summary": "This paper introduces a computationally efficient algorithm in system theory\nfor solving inverse problems governed by linear partial differential equations\n(PDEs). We model solutions of linear PDEs using Gaussian processes with priors\ndefined based on advanced commutative algebra and algebraic analysis. The\nimplementation of these priors is algorithmic and achieved using the Macaulay2\ncomputer algebra software. An example application includes identifying the wave\nspeed from noisy data for classical wave equations, which are widely used in\nphysics. The method achieves high accuracy while enhancing computational\nefficiency.",
+            "authors": [
+                "Xin Li",
+                "Markus Lange-Hegermann",
+                "Bogdan Raiţă"
+            ],
+            "published": "2025-02-06T18:20:38Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04276v1"
+        },
+        {
+            "title": "Orthogonal Representation Learning for Estimating Causal Quantities",
+            "summary": "Representation learning is widely used for estimating causal quantities\n(e.g., the conditional average treatment effect) from observational data. While\nexisting representation learning methods have the benefit of allowing for\nend-to-end learning, they do not have favorable theoretical properties of\nNeyman-orthogonal learners, such as double robustness and quasi-oracle\nefficiency. Also, such representation learning methods often employ additional\nconstraints, like balancing, which may even lead to inconsistent estimation. In\nthis paper, we propose a novel class of Neyman-orthogonal learners for causal\nquantities defined at the representation level, which we call OR-learners. Our\nOR-learners have several practical advantages: they allow for consistent\nestimation of causal quantities based on any learned representation, while\noffering favorable theoretical properties including double robustness and\nquasi-oracle efficiency. In multiple experiments, we show that, under certain\nregularity conditions, our OR-learners improve existing representation learning\nmethods and achieve state-of-the-art performance. To the best of our knowledge,\nour OR-learners are the first work to offer a unified framework of\nrepresentation learning methods and Neyman-orthogonal learners for causal\nquantities estimation.",
+            "authors": [
+                "Valentyn Melnychuk",
+                "Dennis Frauen",
+                "Jonas Schweisthal",
+                "Stefan Feuerriegel"
+            ],
+            "published": "2025-02-06T18:18:48Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04274v1"
+        },
+        {
+            "title": "How does a Multilingual LM Handle Multiple Languages?",
+            "summary": "Multilingual language models have significantly advanced due to rapid\nprogress in natural language processing. Models like BLOOM 1.7B, trained on\ndiverse multilingual datasets, aim to bridge linguistic gaps. However, their\neffectiveness in capturing linguistic knowledge, particularly for low-resource\nlanguages, remains an open question. This study critically examines MLMs\ncapabilities in multilingual understanding, semantic representation, and\ncross-lingual knowledge transfer. While these models perform well for\nhigh-resource languages, they struggle with less-represented ones.\nAdditionally, traditional evaluation methods often overlook their internal\nsyntactic and semantic encoding.\n  This research addresses key limitations through three objectives. First, it\nassesses semantic similarity by analyzing multilingual word embeddings for\nconsistency using cosine similarity. Second, it examines BLOOM-1.7B and Qwen2\nthrough Named Entity Recognition and sentence similarity tasks to understand\ntheir linguistic structures. Third, it explores cross-lingual knowledge\ntransfer by evaluating generalization from high-resource to low-resource\nlanguages in sentiment analysis and text classification.\n  By leveraging linguistic probing, performance metrics, and visualizations,\nthis study provides insights into the strengths and limitations of MLMs. The\nfindings aim to enhance multilingual NLP models, ensuring better support for\nboth high- and low-resource languages, thereby promoting inclusivity in\nlanguage technologies.",
+            "authors": [
+                "Santhosh Kakarla",
+                "Gautama Shastry Bulusu Venkata",
+                "Aishwarya Gaddam"
+            ],
+            "published": "2025-02-06T18:08:14Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04269v1"
+        },
+        {
+            "title": "Point2RBox-v2: Rethinking Point-supervised Oriented Object Detection\n  with Spatial Layout Among Instances",
+            "summary": "With the rapidly increasing demand for oriented object detection (OOD),\nrecent research involving weakly-supervised detectors for learning OOD from\npoint annotations has gained great attention. In this paper, we rethink this\nchallenging task setting with the layout among instances and present\nPoint2RBox-v2. At the core are three principles: 1) Gaussian overlap loss. It\nlearns an upper bound for each instance by treating objects as 2D Gaussian\ndistributions and minimizing their overlap. 2) Voronoi watershed loss. It\nlearns a lower bound for each instance through watershed on Voronoi\ntessellation. 3) Consistency loss. It learns the size/rotation variation\nbetween two output sets with respect to an input image and its augmented view.\nSupplemented by a few devised techniques, e.g. edge loss and copy-paste, the\ndetector is further enhanced.To our best knowledge, Point2RBox-v2 is the first\napproach to explore the spatial layout among instances for learning\npoint-supervised OOD. Our solution is elegant and lightweight, yet it is\nexpected to give a competitive performance especially in densely packed scenes:\n62.61%/86.15%/34.71% on DOTA/HRSC/FAIR1M. Code is available at\nhttps://github.com/VisionXLab/point2rbox-v2.",
+            "authors": [
+                "Yi Yu",
+                "Botao Ren",
+                "Peiyuan Zhang",
+                "Mingxin Liu",
+                "Junwei Luo",
+                "Shaofeng Zhang",
+                "Feipeng Da",
+                "Junchi Yan",
+                "Xue Yang"
+            ],
+            "published": "2025-02-06T18:07:25Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04268v1"
+        },
+        {
+            "title": "Digital Gatekeeping: An Audit of Search Engine Results shows tailoring\n  of queries on the Israel-Palestine Conflict",
+            "summary": "Search engines, often viewed as reliable gateways to information, tailor\nsearch results using customization algorithms based on user preferences,\nlocation, and more. While this can be useful for routine queries, it raises\nconcerns when the topics are sensitive or contentious, possibly limiting\nexposure to diverse viewpoints and increasing polarization.\n  To examine the extent of this tailoring, we focused on the Israel-Palestine\nconflict and developed a privacy-protecting tool to audit the behavior of three\nsearch engines: DuckDuckGo, Google and Yahoo. Our study focused on two main\nquestions: (1) How do search results for the same query about the conflict vary\namong different users? and (2) Are these results influenced by the user's\nlocation and browsing history?\n  Our findings revealed significant customization based on location and\nbrowsing preferences, unlike previous studies that found only mild\npersonalization for general topics. Moreover, queries related to the conflict\nwere more customized than unrelated queries, and the results were not neutral\nconcerning the conflict's portrayal.",
+            "authors": [
+                "Íris Damião",
+                "José M. Reis",
+                "Paulo Almeida",
+                "Nuno Santos",
+                "Joana Gonçalves-Sá"
+            ],
+            "published": "2025-02-06T18:05:30Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04266v1"
+        },
+        {
+            "title": "Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via\n  Modality Inversion",
+            "summary": "Pre-trained multi-modal Vision-Language Models like CLIP are widely used\noff-the-shelf for a variety of applications. In this paper, we show that the\ncommon practice of individually exploiting the text or image encoders of these\npowerful multi-modal models is highly suboptimal for intra-modal tasks like\nimage-to-image retrieval. We argue that this is inherently due to the\nCLIP-style inter-modal contrastive loss that does not enforce any intra-modal\nconstraints, leading to what we call intra-modal misalignment. To demonstrate\nthis, we leverage two optimization-based modality inversion techniques that map\nrepresentations from their input modality to the complementary one without any\nneed for auxiliary data or additional trained adapters. We empirically show\nthat, in the intra-modal tasks of image-to-image and text-to-text retrieval,\napproaching these tasks inter-modally significantly improves performance with\nrespect to intra-modal baselines on more than fifteen datasets. Additionally,\nwe demonstrate that approaching a native inter-modal task (e.g. zero-shot image\nclassification) intra-modally decreases performance, further validating our\nfindings. Finally, we show that incorporating an intra-modal term in the\npre-training objective or narrowing the modality gap between the text and image\nfeature embedding spaces helps reduce the intra-modal misalignment. The code is\npublicly available at: https://github.com/miccunifi/Cross-the-Gap.",
+            "authors": [
+                "Marco Mistretta",
+                "Alberto Baldrati",
+                "Lorenzo Agnolucci",
+                "Marco Bertini",
+                "Andrew D. Bagdanov"
+            ],
+            "published": "2025-02-06T17:58:59Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04263v1"
+        },
+        {
+            "title": "Efficient Randomized Experiments Using Foundation Models",
+            "summary": "Randomized experiments are the preferred approach for evaluating the effects\nof interventions, but they are costly and often yield estimates with\nsubstantial uncertainty. On the other hand, in silico experiments leveraging\nfoundation models offer a cost-effective alternative that can potentially\nattain higher statistical precision. However, the benefits of in silico\nexperiments come with a significant risk: statistical inferences are not valid\nif the models fail to accurately predict experimental responses to\ninterventions. In this paper, we propose a novel approach that integrates the\npredictions from multiple foundation models with experimental data while\npreserving valid statistical inference. Our estimator is consistent and\nasymptotically normal, with asymptotic variance no larger than the standard\nestimator based on experimental data alone. Importantly, these statistical\nproperties hold even when model predictions are arbitrarily biased. Empirical\nresults across several randomized experiments show that our estimator offers\nsubstantial precision gains, equivalent to a reduction of up to 20% in the\nsample size needed to match the same precision as the standard estimator based\non experimental data alone.",
+            "authors": [
+                "Piersilvio De Bartolomeis",
+                "Javier Abad",
+                "Guanbo Wang",
+                "Konstantin Donhauser",
+                "Raymond M. Duch",
+                "Fanny Yang",
+                "Issa J. Dahabreh"
+            ],
+            "published": "2025-02-06T17:54:10Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04262v1"
+        },
+        {
+            "title": "Work in Progress: AI-Powered Engineering-Bridging Theory and Practice",
+            "summary": "This paper explores how generative AI can help automate and improve key steps\nin systems engineering. It examines AI's ability to analyze system requirements\nbased on INCOSE's \"good requirement\" criteria, identifying well-formed and\npoorly written requirements. The AI does not just classify requirements but\nalso explains why some do not meet the standards. By comparing AI assessments\nwith those of experienced engineers, the study evaluates the accuracy and\nreliability of AI in identifying quality issues. Additionally, it explores AI's\nability to classify functional and non-functional requirements and generate\ntest specifications based on these classifications. Through both quantitative\nand qualitative analysis, the research aims to assess AI's potential to\nstreamline engineering processes and improve learning outcomes. It also\nhighlights the challenges and limitations of AI, ensuring its safe and ethical\nuse in professional and academic settings.",
+            "authors": [
+                "Oz Levy",
+                "Ilya Dikman",
+                "Natan Levy",
+                "Michael Winokur"
+            ],
+            "published": "2025-02-06T17:42:00Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04256v1"
+        },
+        {
+            "title": "Combining Language and App UI Analysis for the Automated Assessment of\n  Bug Reproduction Steps",
+            "summary": "Bug reports are essential for developers to confirm software problems,\ninvestigate their causes, and validate fixes. Unfortunately, reports often miss\nimportant information or are written unclearly, which can cause delays,\nincreased issue resolution effort, or even the inability to solve issues. One\nof the most common components of reports that are problematic is the steps to\nreproduce the bug(s) (S2Rs), which are essential to replicate the described\nprogram failures and reason about fixes. Given the proclivity for deficiencies\nin reported S2Rs, prior work has proposed techniques that assist reporters in\nwriting or assessing the quality of S2Rs. However, automated understanding of\nS2Rs is challenging, and requires linking nuanced natural language phrases with\nspecific, semantically related program information. Prior techniques often\nstruggle to form such language to program connections - due to issues in\nlanguage variability and limitations of information gleaned from program\nanalyses.\n  To more effectively tackle the problem of S2R quality annotation, we propose\na new technique called AstroBR, which leverages the language understanding\ncapabilities of LLMs to identify and extract the S2Rs from bug reports and map\nthem to GUI interactions in a program state model derived via dynamic analysis.\nWe compared AstroBR to a related state-of-the-art approach and we found that\nAstroBR annotates S2Rs 25.2% better (in terms of F1 score) than the baseline.\nAdditionally, AstroBR suggests more accurate missing S2Rs than the baseline (by\n71.4% in terms of F1 score).",
+            "authors": [
+                "Junayed Mahmud",
+                "Antu Saha",
+                "Oscar Chaparro",
+                "Kevin Moran",
+                "Andrian Marcus"
+            ],
+            "published": "2025-02-06T17:40:53Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04251v1"
+        },
+        {
+            "title": "Adapting to Evolving Adversaries with Regularized Continual Robust\n  Training",
+            "summary": "Robust training methods typically defend against specific attack types, such\nas Lp attacks with fixed budgets, and rarely account for the fact that\ndefenders may encounter new attacks over time. A natural solution is to adapt\nthe defended model to new adversaries as they arise via fine-tuning, a method\nwhich we call continual robust training (CRT). However, when implemented\nnaively, fine-tuning on new attacks degrades robustness on previous attacks.\nThis raises the question: how can we improve the initial training and\nfine-tuning of the model to simultaneously achieve robustness against previous\nand new attacks? We present theoretical results which show that the gap in a\nmodel's robustness against different attacks is bounded by how far each attack\nperturbs a sample in the model's logit space, suggesting that regularizing with\nrespect to this logit space distance can help maintain robustness against\nprevious attacks. Extensive experiments on 3 datasets (CIFAR-10, CIFAR-100, and\nImageNette) and over 100 attack combinations demonstrate that the proposed\nregularization improves robust accuracy with little overhead in training time.\nOur findings and open-source code lay the groundwork for the deployment of\nmodels robust to evolving attacks.",
+            "authors": [
+                "Sihui Dai",
+                "Christian Cianfarani",
+                "Arjun Bhagoji",
+                "Vikash Sehwag",
+                "Prateek Mittal"
+            ],
+            "published": "2025-02-06T17:38:41Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04248v1"
+        },
+        {
+            "title": "An object detection approach for lane change and overtake detection from\n  motion profiles",
+            "summary": "In the application domain of fleet management and driver monitoring, it is\nvery challenging to obtain relevant driving events and activities from dashcam\nfootage while minimizing the amount of information stored and analyzed. In this\npaper, we address the identification of overtake and lane change maneuvers with\na novel object detection approach applied to motion profiles, a compact\nrepresentation of driving video footage into a single image. To train and test\nour model we created an internal dataset of motion profile images obtained from\na heterogeneous set of dashcam videos, manually labeled with overtake and lane\nchange maneuvers by the ego-vehicle. In addition to a standard object-detection\napproach, we show how the inclusion of CoordConvolution layers further improves\nthe model performance, in terms of mAP and F1 score, yielding state-of-the art\nperformance when compared to other baselines from the literature. The extremely\nlow computational requirements of the proposed solution make it especially\nsuitable to run in device.",
+            "authors": [
+                "Andrea Benericetti",
+                "Niccolò Bellaccini",
+                "Henrique Piñeiro Monteagudo",
+                "Matteo Simoncini",
+                "Francesco Sambo"
+            ],
+            "published": "2025-02-06T17:36:35Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04244v1"
+        },
+        {
+            "title": "A Theoretical Framework for Data Efficient Multi-Source Transfer\n  Learning Based on Cramér-Rao Bound",
+            "summary": "Multi-source transfer learning provides an effective solution to data\nscarcity in real-world supervised learning scenarios by leveraging multiple\nsource tasks. In this field, existing works typically use all available samples\nfrom sources in training, which constrains their training efficiency and may\nlead to suboptimal results. To address this, we propose a theoretical framework\nthat answers the question: what is the optimal quantity of source samples\nneeded from each source task to jointly train the target model? Specifically,\nwe introduce a generalization error measure that aligns with cross-entropy\nloss, and minimize it based on the Cram\\'er-Rao Bound to determine the optimal\ntransfer quantity for each source task. Additionally, we develop an\narchitecture-agnostic and data-efficient algorithm OTQMS to implement our\ntheoretical results for training deep multi-source transfer learning models.\nExperimental studies on diverse architectures and two real-world benchmark\ndatasets show that our proposed algorithm significantly outperforms\nstate-of-the-art approaches in both accuracy and data efficiency. The code and\nsupplementary materials are available in\nhttps://anonymous.4open.science/r/Materials.",
+            "authors": [
+                "Qingyue Zhang",
+                "Haohao Fu",
+                "Guanbo Huang",
+                "Yaoyuan Liang",
+                "Chang Chu",
+                "Tianren Peng",
+                "Yanru Wu",
+                "Qi Li",
+                "Yang Li",
+                "Shao-Lun Huang"
+            ],
+            "published": "2025-02-06T17:32:49Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04242v1"
+        },
+        {
+            "title": "MAGA: MAssive Genre-Audience Reformulation to Pretraining Corpus\n  Expansion",
+            "summary": "Despite the remarkable capabilities of large language models across various\ntasks, their continued scaling faces a critical challenge: the scarcity of\nhigh-quality pretraining data. While model architectures continue to evolve,\nthe natural language data struggles to scale up. To tackle this bottleneck, we\npropose \\textbf{MA}ssive \\textbf{G}enre-\\textbf{A}udience~(MAGA) reformulation\nmethod, which systematic synthesizes diverse, contextually-rich pretraining\ndata from existing corpus. This work makes three main contributions: (1) We\npropose MAGA reformulation method, a lightweight and scalable approach for\npretraining corpus expansion, and build a 770B tokens MAGACorpus. (2) We\nevaluate MAGACorpus with different data budget scaling strategies,\ndemonstrating consistent improvements across various model sizes (134M-13B),\nestablishing the necessity for next-generation large-scale synthetic\npretraining language models. (3) Through comprehensive analysis, we investigate\nprompt engineering's impact on synthetic training collapse and reveal\nlimitations in conventional collapse detection metrics using validation losses.\nOur work shows that MAGA can substantially expand training datasets while\nmaintaining quality, offering a reliably pathway for scaling models beyond data\nlimitations.",
+            "authors": [
+                "Xintong Hao",
+                "Ke Shen",
+                "Chenggang Li"
+            ],
+            "published": "2025-02-06T17:19:55Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04235v1"
+        },
+        {
+            "title": "XAttnMark: Learning Robust Audio Watermarking with Cross-Attention",
+            "summary": "The rapid proliferation of generative audio synthesis and editing\ntechnologies has raised significant concerns about copyright infringement, data\nprovenance, and the spread of misinformation through deepfake audio.\nWatermarking offers a proactive solution by embedding imperceptible,\nidentifiable, and traceable marks into audio content. While recent neural\nnetwork-based watermarking methods like WavMark and AudioSeal have improved\nrobustness and quality, they struggle to achieve both robust detection and\naccurate attribution simultaneously. This paper introduces Cross-Attention\nRobust Audio Watermark (XAttnMark), which bridges this gap by leveraging\npartial parameter sharing between the generator and the detector, a\ncross-attention mechanism for efficient message retrieval, and a temporal\nconditioning module for improved message distribution. Additionally, we propose\na psychoacoustic-aligned temporal-frequency masking loss that captures\nfine-grained auditory masking effects, enhancing watermark imperceptibility.\nOur approach achieves state-of-the-art performance in both detection and\nattribution, demonstrating superior robustness against a wide range of audio\ntransformations, including challenging generative editing with strong editing\nstrength. The project webpage is available at\nhttps://liuyixin-louis.github.io/xattnmark/.",
+            "authors": [
+                "Yixin Liu",
+                "Lie Lu",
+                "Jihui Jin",
+                "Lichao Sun",
+                "Andrea Fanelli"
+            ],
+            "published": "2025-02-06T17:15:08Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04230v1"
+        },
+        {
+            "title": "Keep It Light! Simplifying Image Clustering Via Text-Free Adapters",
+            "summary": "Many competitive clustering pipelines have a multi-modal design, leveraging\nlarge language models (LLMs) or other text encoders, and text-image pairs,\nwhich are often unavailable in real-world downstream applications.\nAdditionally, such frameworks are generally complicated to train and require\nsubstantial computational resources, making widespread adoption challenging. In\nthis work, we show that in deep clustering, competitive performance with more\ncomplex state-of-the-art methods can be achieved using a text-free and highly\nsimplified training pipeline. In particular, our approach, Simple Clustering\nvia Pre-trained models (SCP), trains only a small cluster head while leveraging\npre-trained vision model feature representations and positive data pairs.\nExperiments on benchmark datasets including CIFAR-10, CIFAR-20, CIFAR-100,\nSTL-10, ImageNet-10, and ImageNet-Dogs, demonstrate that SCP achieves highly\ncompetitive performance. Furthermore, we provide a theoretical result\nexplaining why, at least under ideal conditions, additional text-based\nembeddings may not be necessary to achieve strong clustering performance in\nvision.",
+            "authors": [
+                "Yicen Li",
+                "Haitz Sáez de Ocáriz Borde",
+                "Anastasis Kratsios",
+                "Paul D. McNicholas"
+            ],
+            "published": "2025-02-06T17:12:07Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04226v1"
+        },
+        {
+            "title": "Éclair -- Extracting Content and Layout with Integrated Reading Order\n  for Documents",
+            "summary": "Optical Character Recognition (OCR) technology is widely used to extract text\nfrom images of documents, facilitating efficient digitization and data\nretrieval. However, merely extracting text is insufficient when dealing with\ncomplex documents. Fully comprehending such documents requires an understanding\nof their structure -- including formatting, formulas, tables, and the reading\norder of multiple blocks and columns across multiple pages -- as well as\nsemantic information for detecting elements like footnotes and image captions.\nThis comprehensive understanding is crucial for downstream tasks such as\nretrieval, document question answering, and data curation for training Large\nLanguage Models (LLMs) and Vision Language Models (VLMs). To address this, we\nintroduce \\'Eclair, a general-purpose text-extraction tool specifically\ndesigned to process a wide range of document types. Given an image, \\'Eclair is\nable to extract formatted text in reading order, along with bounding boxes and\ntheir corresponding semantic classes. To thoroughly evaluate these novel\ncapabilities, we introduce our diverse human-annotated benchmark for\ndocument-level OCR and semantic classification. \\'Eclair achieves\nstate-of-the-art accuracy on this benchmark, outperforming other methods across\nkey metrics. Additionally, we evaluate \\'Eclair on established benchmarks,\ndemonstrating its versatility and strength across several evaluation standards.",
+            "authors": [
+                "Ilia Karmanov",
+                "Amala Sanjay Deshmukh",
+                "Lukas Voegtle",
+                "Philipp Fischer",
+                "Kateryna Chumachenko",
+                "Timo Roman",
+                "Jarno Seppänen",
+                "Jupinder Parmar",
+                "Joseph Jennings",
+                "Andrew Tao",
+                "Karan Sapra"
+            ],
+            "published": "2025-02-06T17:07:22Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04223v1"
+        },
+        {
+            "title": "NLP-Based .NET CLR Event Logs Analyzer",
+            "summary": "In this paper, we present a tool for analyzing .NET CLR event logs based on a\nnovel method inspired by Natural Language Processing (NLP) approach. Our\nresearch addresses the growing need for effective monitoring and optimization\nof software systems through detailed event log analysis. We utilize a\nBERT-based architecture with an enhanced tokenization process customized to\nevent logs. The tool, developed using Python, its libraries, and an SQLite\ndatabase, allows both conducting experiments for academic purposes and\nefficiently solving industry-emerging tasks. Our experiments demonstrate the\nefficacy of our approach in compressing event sequences, detecting recurring\npatterns, and identifying anomalies. The trained model shows promising results,\nwith a high accuracy rate in anomaly detection, which demonstrates the\npotential of NLP methods to improve the reliability and stability of software\nsystems.",
+            "authors": [
+                "Maxim Stavtsev",
+                "Sergey Shershakov"
+            ],
+            "published": "2025-02-06T17:01:38Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04219v1"
+        },
+        {
+            "title": "Sports and Women's Sports: Gender Bias in Text Generation with Olympic\n  Data",
+            "summary": "Large Language Models (LLMs) have been shown to be biased in prior work, as\nthey generate text that is in line with stereotypical views of the world or\nthat is not representative of the viewpoints and values of historically\nmarginalized demographic groups. In this work, we propose using data from\nparallel men's and women's events at the Olympic Games to investigate different\nforms of gender bias in language models. We define three metrics to measure\nbias, and find that models are consistently biased against women when the\ngender is ambiguous in the prompt. In this case, the model frequently retrieves\nonly the results of the men's event with or without acknowledging them as such,\nrevealing pervasive gender bias in LLMs in the context of athletics.",
+            "authors": [
+                "Laura Biester"
+            ],
+            "published": "2025-02-06T17:01:00Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04218v1"
+        },
+        {
+            "title": "Enhanced Feature-based Image Stitching for Endoscopic Videos in\n  Pediatric Eosinophilic Esophagitis",
+            "summary": "Video endoscopy represents a major advance in the investigation of\ngastrointestinal diseases. Reviewing endoscopy videos often involves frequent\nadjustments and reorientations to piece together a complete view, which can be\nboth time-consuming and prone to errors. Image stitching techniques address\nthis issue by providing a continuous and complete visualization of the examined\narea. However, endoscopic images, particularly those of the esophagus, present\nunique challenges. The smooth surface, lack of distinct feature points, and\nnon-horizontal orientation complicate the stitching process, rendering\ntraditional feature-based methods often ineffective for these types of images.\nIn this paper, we propose a novel preprocessing pipeline designed to enhance\nendoscopic image stitching through advanced computational techniques. Our\napproach converts endoscopic video data into continuous 2D images by following\nfour key steps: (1) keyframe selection, (2) image rotation adjustment to\ncorrect distortions, (3) surface unwrapping using polar coordinate\ntransformation to generate a flat image, and (4) feature point matching\nenhanced by Adaptive Histogram Equalization for improved feature detection. We\nevaluate stitching quality through the assessment of valid feature point match\npairs. Experiments conducted on 20 pediatric endoscopy videos demonstrate that\nour method significantly improves image alignment and stitching quality\ncompared to traditional techniques, laying a robust foundation for more\neffective panoramic image creation.",
+            "authors": [
+                "Juming Xiong",
+                "Muyang Li",
+                "Ruining Deng",
+                "Tianyuan Yao",
+                "Regina N Tyree",
+                "Girish Hiremath",
+                "Yuankai Huo"
+            ],
+            "published": "2025-02-06T16:47:28Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04207v1"
+        },
+        {
+            "title": "Ensuring Reliability via Hyperparameter Selection: Review and Advances",
+            "summary": "Hyperparameter selection is a critical step in the deployment of artificial\nintelligence (AI) models, particularly in the current era of foundational,\npre-trained, models. By framing hyperparameter selection as a multiple\nhypothesis testing problem, recent research has shown that it is possible to\nprovide statistical guarantees on population risk measures attained by the\nselected hyperparameter. This paper reviews the Learn-Then-Test (LTT)\nframework, which formalizes this approach, and explores several extensions\ntailored to engineering-relevant scenarios. These extensions encompass\ndifferent risk measures and statistical guarantees, multi-objective\noptimization, the incorporation of prior knowledge and dependency structures\ninto the hyperparameter selection process, as well as adaptivity. The paper\nalso includes illustrative applications for communication systems.",
+            "authors": [
+                "Amirmohammad Farzaneh",
+                "Osvaldo Simeone"
+            ],
+            "published": "2025-02-06T16:47:21Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04206v1"
+        },
+        {
+            "title": "Integration of Prior Knowledge into Direct Learning for Safe Control of\n  Linear Systems",
+            "summary": "This paper integrates prior knowledge into direct learning of safe\ncontrollers for linear uncertain systems under disturbances. To this end, we\ncharacterize the set of all closed-loop systems that can be explained by\navailable prior knowledge of the system model and the disturbances. We leverage\nmatrix zonotopes for data-based characterization of closed-loop systems and\nshow that the explainability of closed-loop systems by prior knowledge can be\nformalized by adding an equality conformity constraint to the matrix zonotope.\nWe then leverage the resulting constraint matrix zonotope and design safe\ncontrollers that conform with both data and prior knowledge. This is achieved\nby ensuring the inclusion of a constrained zonotope of all possible next states\nin a {\\lambda}-scaled level set of the safe set. We consider both polytope and\nzonotope safe sets and provide set inclusion conditions using linear\nprogramming.",
+            "authors": [
+                "Amir Modares",
+                "Bahare Kiumarsi",
+                "Hamidreza Modares"
+            ],
+            "published": "2025-02-06T16:31:32Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04195v1"
+        },
+        {
+            "title": "The Best Instruction-Tuning Data are Those That Fit",
+            "summary": "High-quality supervised fine-tuning (SFT) data are crucial for eliciting\nstrong capabilities from pretrained large language models (LLMs). Typically,\ninstructions are paired with multiple responses sampled from other LLMs, which\nare often out of the distribution of the target model to be fine-tuned. This,\nat scale, can lead to diminishing returns and even hurt the models' performance\nand robustness. We propose **GRAPE**, a novel SFT framework that accounts for\nthe unique characteristics of the target model. For each instruction, it\ngathers responses from various LLMs and selects the one with the highest\nprobability measured by the target model, indicating that it aligns most\nclosely with the target model's pretrained distribution; it then proceeds with\nstandard SFT training.\n  We first evaluate GRAPE with a controlled experiment, where we sample various\nsolutions for each question in UltraInteract from multiple models and fine-tune\ncommonly used LMs like LLaMA3.1-8B, Mistral-7B, and Qwen2.5-7B on\nGRAPE-selected data. GRAPE significantly outperforms strong baselines,\nincluding distilling from the strongest model with an absolute gain of up to\n13.8%, averaged across benchmarks, and training on 3x more data with a maximum\nperformance improvement of 17.3%. GRAPE's strong performance generalizes to\nrealistic settings. We experiment with the post-training data used for Tulu3\nand Olmo-2. GRAPE outperforms strong baselines trained on 4.5 times more data\nby 6.1% and a state-of-the-art data selection approach by 3% on average\nperformance. Remarkably, using 1/3 of the data and half the number of epochs,\nGRAPE enables LLaMA3.1-8B to surpass the performance of Tulu3-SFT by 3.5%.",
+            "authors": [
+                "Dylan Zhang",
+                "Qirun Dai",
+                "Hao Peng"
+            ],
+            "published": "2025-02-06T16:31:21Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04194v1"
+        },
+        {
+            "title": "PixFoundation: Are We Heading in the Right Direction with Pixel-level\n  Vision Foundation Models?",
+            "summary": "Multiple works have emerged to push the boundaries on multi-modal large\nlanguage models (MLLMs) towards pixel-level understanding. Such approaches have\nshown strong performance on benchmarks for referring expression segmentation\nand grounded conversation generation. The current trend in pixel-level MLLMs is\nto train with pixel-level grounding supervision on large-scale labelled data.\nHowever, we show that such MLLMs when evaluated on recent challenging vision\ncentric benchmarks, exhibit a weak ability in visual question answering.\nSurprisingly, some of these methods even downgrade the grounding ability of\nMLLMs that were never trained with such supervision. In this work, we propose\ntwo novel challenging benchmarks and show that MLLMs without pixel-level\ngrounding supervision can outperform the state of the art in such tasks when\nevaluating both the pixel-level grounding and visual question answering. We\npropose simple baselines to extract the grounding information that can be\nplugged into any MLLM, which we call as PixFoundation. More importantly, we\nstudy the research question of ``When does grounding emerge in MLLMs that are\nnot trained with pixel-level grounding supervision?'' We show that grounding\ncan coincide with object parts or location/appearance information. Code\nrepository is at https://github.com/MSiam/PixFoundation/.",
+            "authors": [
+                "Mennatullah Siam"
+            ],
+            "published": "2025-02-06T16:29:50Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04192v1"
+        },
+        {
+            "title": "Automated Microservice Pattern Instance Detection Using\n  Infrastructure-as-Code Artifacts and Large Language Models",
+            "summary": "Documenting software architecture is essential to preserve architecture\nknowledge, even though it is frequently costly. Architecture pattern instances,\nincluding microservice pattern instances, provide important structural software\ninformation. Practitioners should document this information to prevent\nknowledge vaporization. However, architecture patterns may not be detectable by\nanalyzing source code artifacts, requiring the analysis of other types of\nartifacts. Moreover, many existing pattern detection instance approaches are\ncomplex to extend. This article presents our ongoing PhD research, early\nexperiments, and a prototype for a tool we call MicroPAD for automating the\ndetection of microservice pattern instances. The prototype uses Large Language\nModels (LLMs) to analyze Infrastructure-as-Code (IaC) artifacts to aid\ndetection, aiming to keep costs low and maximize the scope of detectable\npatterns. Early experiments ran the prototype thrice in 22 GitHub projects. We\nverified that 83\\% of the patterns that the prototype identified were in the\nproject. The costs of detecting the pattern instances were minimal. These\nresults indicate that the approach is likely viable and, by lowering the entry\nbarrier to automating pattern instance detection, could help democratize\ndeveloper access to this category of architecture knowledge. Finally, we\npresent our overall research methodology, planned future work, and an overview\nof MicroPAD's potential industrial impact.",
+            "authors": [
+                "Carlos Eduardo Duarte"
+            ],
+            "published": "2025-02-06T16:22:14Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04188v1"
+        },
+        {
+            "title": "Are the Majority of Public Computational Notebooks Pathologically\n  Non-Executable?",
+            "summary": "Computational notebooks are the de facto platforms for exploratory data\nscience, offering an interactive programming environment where users can\ncreate, modify, and execute code cells in any sequence. However, this\nflexibility often introduces code quality issues, with prior studies showing\nthat approximately 76% of public notebooks are non-executable, raising\nsignificant concerns about reusability. We argue that the traditional notion of\nexecutability - requiring a notebook to run fully and without error - is overly\nrigid, misclassifying many notebooks and overestimating their\nnon-executability. This paper investigates pathological executability issues in\npublic notebooks under varying notions and degrees of executability. Even\npartially improving executability can improve code comprehension and offer a\npathway for dynamic analyses. With this insight, we first categorize notebooks\ninto potentially restorable and pathological non-executable notebooks and then\nmeasure how removing misconfiguration and superficial execution issues in\nnotebooks can improve their executability (i.e., additional cells executed\nwithout error). In a dataset of 42,546 popular public notebooks containing\n34,659 non-executable notebooks, only 21.3% are truly pathologically\nnon-executable. For restorable notebooks, LLM-based methods fully restore 5.4%\nof previously non-executable notebooks. Among the partially restored, the\nnotebook\\textquotesingle s executability improves by 42.7% and 28% by\ninstalling the correct modules and generating synthetic data. These findings\nchallenge prior assumptions, suggesting that notebooks have higher\nexecutability than previously reported, many of which offer valuable partial\nexecution, and that their executability should be evaluated within the\ninteractive notebook paradigm rather than through traditional software\nexecutability standards.",
+            "authors": [
+                "Tien Nguyen",
+                "Waris Gill",
+                "Muhammad Ali Gulzar"
+            ],
+            "published": "2025-02-06T16:16:20Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04184v1"
+        },
+        {
+            "title": "Fast In-Spectrum Graph Watermarks",
+            "summary": "We address the problem of watermarking graph objects, which consists in\nhiding information within them, to prove their origin. The two existing methods\nto watermark graphs use subgraph matching or graph isomorphism techniques,\nwhich are known to be intractable for large graphs. To reduce the operational\ncomplexity, we propose FFG, a new graph watermarking scheme adapted from an\nimage watermarking scheme, since graphs and images can be represented as\nmatrices. We analyze and compare FFG, whose novelty lies in embedding the\nwatermark in the Fourier transform of the adjacency matrix of a graph. Our\ntechnique enjoys a much lower complexity than that of related works (i.e. in\n$\\mathcal{O}\\left(N^2 \\log N\\right)$), while performing better or at least as\nwell as the two state-of-the-art methods.",
+            "authors": [
+                "Jade Garcia Bourrée",
+                "Anne-Marie Kermarrec",
+                "Erwan Le Merrer",
+                "Othmane Safsafi"
+            ],
+            "published": "2025-02-06T16:14:00Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04182v1"
+        },
+        {
+            "title": "Multi-agent Architecture Search via Agentic Supernet",
+            "summary": "Large Language Model (LLM)-empowered multi-agent systems extend the cognitive\nboundaries of individual agents through disciplined collaboration and\ninteraction, while constructing these systems often requires labor-intensive\nmanual designs. Despite the availability of methods to automate the design of\nagentic workflows, they typically seek to identify a static, complex,\none-size-fits-all system, which, however, fails to dynamically allocate\ninference resources based on the difficulty and domain of each query. To\naddress this challenge, we shift away from the pursuit of a monolithic agentic\nsystem, instead optimizing the \\textbf{agentic supernet}, a probabilistic and\ncontinuous distribution of agentic architectures. We introduce MaAS, an\nautomated framework that samples query-dependent agentic systems from the\nsupernet, delivering high-quality solutions and tailored resource allocation\n(\\textit{e.g.}, LLM calls, tool calls, token cost). Comprehensive evaluation\nacross six benchmarks demonstrates that MaAS \\textbf{(I)} requires only\n$6\\sim45\\%$ of the inference costs of existing handcrafted or automated\nmulti-agent systems, \\textbf{(II)} surpasses them by $0.54\\%\\sim11.82\\%$, and\n\\textbf{(III)} enjoys superior cross-dataset and cross-LLM-backbone\ntransferability.",
+            "authors": [
+                "Guibin Zhang",
+                "Luyang Niu",
+                "Junfeng Fang",
+                "Kun Wang",
+                "Lei Bai",
+                "Xiang Wang"
+            ],
+            "published": "2025-02-06T16:12:06Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04180v1"
+        },
+        {
+            "title": "MRAMG-Bench: A BeyondText Benchmark for Multimodal Retrieval-Augmented\n  Multimodal Generation",
+            "summary": "Recent advancements in Retrieval-Augmented Generation (RAG) have shown\nremarkable performance in enhancing response accuracy and relevance by\nintegrating external knowledge into generative models. However, existing RAG\nmethods primarily focus on providing text-only answers, even in multimodal\nretrieval-augmented generation scenarios. In this work, we introduce the\nMultimodal Retrieval-Augmented Multimodal Generation (MRAMG) task, which aims\nto generate answers that combine both text and images, fully leveraging the\nmultimodal data within a corpus. Despite the importance of this task, there is\na notable absence of a comprehensive benchmark to effectively evaluate MRAMG\nperformance. To bridge this gap, we introduce the MRAMG-Bench, a carefully\ncurated, human-annotated dataset comprising 4,346 documents, 14,190 images, and\n4,800 QA pairs, sourced from three categories: Web Data, Academic Papers, and\nLifestyle. The dataset incorporates diverse difficulty levels and complex\nmulti-image scenarios, providing a robust foundation for evaluating multimodal\ngeneration tasks. To facilitate rigorous evaluation, our MRAMG-Bench\nincorporates a comprehensive suite of both statistical and LLM-based metrics,\nenabling a thorough analysis of the performance of popular generative models in\nthe MRAMG task. Besides, we propose an efficient multimodal answer generation\nframework that leverages both LLMs and MLLMs to generate multimodal responses.\nOur datasets are available at: https://huggingface.co/MRAMG.",
+            "authors": [
+                "Qinhan Yu",
+                "Zhiyou Xiao",
+                "Binghui Li",
+                "Zhengren Wang",
+                "Chong Chen",
+                "Wentao Zhang"
+            ],
+            "published": "2025-02-06T16:07:24Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04176v1"
+        },
+        {
+            "title": "Dense Fixed-Wing Swarming using Receding-Horizon NMPC",
+            "summary": "In this paper, we present an approach for controlling a team of agile\nfixed-wing aerial vehicles in close proximity to one another. Our approach\nrelies on receding-horizon nonlinear model predictive control (NMPC) to plan\nmaneuvers across an expanded flight envelope to enable inter-agent collision\navoidance. To facilitate robust collision avoidance and characterize the\nlikelihood of inter-agent collisions, we compute a statistical bound on the\nprobability of the system leaving a tube around the planned nominal trajectory.\nFinally, we propose a metric for evaluating highly dynamic swarms and use this\nmetric to evaluate our approach. We successfully demonstrated our approach\nthrough both simulation and hardware experiments, and to our knowledge, this\nthe first time close-quarters swarming has been achieved with physical\naerobatic fixed-wing vehicles.",
+            "authors": [
+                "Varun Madabushi",
+                "Yocheved Kopel",
+                "Adam Polevoy",
+                "Joseph Moore"
+            ],
+            "published": "2025-02-06T16:07:06Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04174v1"
+        },
+        {
+            "title": "Lexical Substitution is not Synonym Substitution: On the Importance of\n  Producing Contextually Relevant Word Substitutes",
+            "summary": "Lexical Substitution is the task of replacing a single word in a sentence\nwith a similar one. This should ideally be one that is not necessarily only\nsynonymous, but also fits well into the surrounding context of the target word,\nwhile preserving the sentence's grammatical structure. Recent advances in\nLexical Substitution have leveraged the masked token prediction task of\nPre-trained Language Models to generate replacements for a given word in a\nsentence. With this technique, we introduce ConCat, a simple augmented approach\nwhich utilizes the original sentence to bolster contextual information sent to\nthe model. Compared to existing approaches, it proves to be very effective in\nguiding the model to make contextually relevant predictions for the target\nword. Our study includes a quantitative evaluation, measured via sentence\nsimilarity and task performance. In addition, we conduct a qualitative human\nanalysis to validate that users prefer the substitutions proposed by our\nmethod, as opposed to previous methods. Finally, we test our approach on the\nprevailing benchmark for Lexical Substitution, CoInCo, revealing potential\npitfalls of the benchmark. These insights serve as the foundation for a\ncritical discussion on the way in which Lexical Substitution is evaluated.",
+            "authors": [
+                "Juraj Vladika",
+                "Stephen Meisenbacher",
+                "Florian Matthes"
+            ],
+            "published": "2025-02-06T16:05:50Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04173v1"
+        },
+        {
+            "title": "Archetypal Analysis for Binary Data",
+            "summary": "Archetypal analysis (AA) is a matrix decomposition method that identifies\ndistinct patterns using convex combinations of the data points denoted\narchetypes with each data point in turn reconstructed as convex combinations of\nthe archetypes. AA thereby forms a polytope representing trade-offs of the\ndistinct aspects in the data. Most existing methods for AA are designed for\ncontinuous data and do not exploit the structure of the data distribution. In\nthis paper, we propose two new optimization frameworks for archetypal analysis\nfor binary data. i) A second order approximation of the AA likelihood based on\nthe Bernoulli distribution with efficient closed-form updates using an active\nset procedure for learning the convex combinations defining the archetypes, and\na sequential minimal optimization strategy for learning the observation\nspecific reconstructions. ii) A Bernoulli likelihood based version of the\nprincipal convex hull analysis (PCHA) algorithm originally developed for least\nsquares optimization. We compare these approaches with the only existing binary\nAA procedure relying on multiplicative updates and demonstrate their\nsuperiority on both synthetic and real binary data. Notably, the proposed\noptimization frameworks for AA can easily be extended to other data\ndistributions providing generic efficient optimization frameworks for AA based\non tailored likelihood functions reflecting the underlying data distribution.",
+            "authors": [
+                "A. Emilie J. Wedenborg",
+                "Morten Mørup"
+            ],
+            "published": "2025-02-06T16:05:15Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04172v1"
+        },
+        {
+            "title": "Multi-task Online Learning for Probabilistic Load Forecasting",
+            "summary": "Load forecasting is essential for the efficient, reliable, and cost-effective\nmanagement of power systems. Load forecasting performance can be improved by\nlearning the similarities among multiple entities (e.g., regions, buildings).\nTechniques based on multi-task learning obtain predictions by leveraging\nconsumption patterns from the historical load demand of multiple entities and\ntheir relationships. However, existing techniques cannot effectively assess\ninherent uncertainties in load demand or account for dynamic changes in\nconsumption patterns. This paper proposes a multi-task learning technique for\nonline and probabilistic load forecasting. This technique provides accurate\nprobabilistic predictions for the loads of multiple entities by leveraging\ntheir dynamic similarities. The method's performance is evaluated using\ndatasets that register the load demand of multiple entities and contain diverse\nand dynamic consumption patterns. The experimental results show that the\nproposed method can significantly enhance the effectiveness of current\nmulti-task learning approaches across a wide variety of load consumption\nscenarios.",
+            "authors": [
+                "Onintze Zaballa",
+                "Verónica Álvarez",
+                "Santiago Mazuelas"
+            ],
+            "published": "2025-02-06T15:47:02Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04163v1"
+        },
+        {
+            "title": "A Pseudo Markov-Chain Model and Time-Elapsed Measures of Mobility from\n  Collective Data",
+            "summary": "In this paper we develop a pseudo Markov-chain model to understand\ntime-elapsed flows, over multiple intervals, from time and space aggregated\ncollective inter-location trip data, given as a time-series. Building on the\nmodel, we develop measures of mobility that parallel those known for individual\nmobility data, such as the radius of gyration. We apply these measures to the\nNetMob 2024 Data Challenge data, and obtain interesting results that are\nconsistent with published statistics and commuting patterns in cities. Besides\nbuilding a new framework, we foresee applications of this approach to an\nimproved understanding of human mobility in the context of environmental\nchanges and sustainable development.",
+            "authors": [
+                "Alisha Foster",
+                "David A. Meyer",
+                "Asif Shakeel"
+            ],
+            "published": "2025-02-06T15:46:43Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04162v1"
+        },
+        {
+            "title": "YOLOv4: A Breakthrough in Real-Time Object Detection",
+            "summary": "YOLOv4 achieved the best performance on the COCO dataset by combining\nadvanced techniques for regression (bounding box positioning) and\nclassification (object class identification) using the Darknet framework. To\nenhance accuracy and adaptability, it employs Cross mini-Batch Normalization,\nCross-Stage-Partial-connections, Self-Adversarial-Training, and\nWeighted-Residual-Connections, as well as CIoU loss, Mosaic data augmentation,\nand DropBlock regularization. With Mosaic augmentation and multi-resolution\ntraining, YOLOv4 achieves superior detection in diverse scenarios, attaining\n43.5\\% AP (in contrast, 65.7\\% AP50) on a Tesla V100 at ~65 frames per second,\nensuring efficiency, affordability, and adaptability for real-world\nenvironments.",
+            "authors": [
+                "Athulya Sundaresan Geetha"
+            ],
+            "published": "2025-02-06T15:45:18Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04161v1"
+        },
+        {
+            "title": "Fair Schedules for Single Round Robin Tournaments with Ranked\n  Participants",
+            "summary": "We introduce a new measure to capture fairness of a schedule in a single\nround robin (SRR) tournament when participants are ranked by strength. To\nprevent distortion of the outcome of an SRR tournament as well as to guarantee\nequal treatment, we argue that each participant should face its opponents when\nranked by strength in an alternating fashion with respect to the home/away\nadvantage. Here, the home/away advantage captures a variety of situations. We\nprovide an explicit construction proving that so-called ranking-fair schedules\nexist when the number of participants is a multiple of 4. Further, we give a\nformulation that outputs ranking-fair schedules when they exist. Finally, we\nshow that the most popular method to come to a schedule for an SRR tournament,\ndoes not allow ranking-fair schedules when the number of teams exceeds 8. These\nfindings impact the type of schedules to be used for SRR tournaments.",
+            "authors": [
+                "Sten Wessel",
+                "Cor Hurkens",
+                "Frits Spieksma"
+            ],
+            "published": "2025-02-06T15:44:18Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04159v1"
+        },
+        {
+            "title": "Sensor Resistant Instruction Independent Obfuscation for Multiple\n  Programs",
+            "summary": "This work builds upon and optimizes our prior research on obfuscation as\ninstruction decorrelation which achieves multiple program obfuscation.\nLeveraging this infrastructure, we further achieve the property of\nsensor-resistant computation.",
+            "authors": [
+                "Ali Ajorian"
+            ],
+            "published": "2025-02-06T15:40:58Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04157v1"
+        },
+        {
+            "title": "User-Friendly Game-Theoretic Modeling and Analysis of Multi-Modal\n  Transportation Systems",
+            "summary": "The evolution of existing transportation systems, mainly driven by\nurbanization and increased availability of mobility options, such as private,\nprofit-maximizing ride-hailing companies, calls for tools to reason about their\ndesign and regulation. To study this complex socio-technical problem, one needs\nto account for the strategic interactions of the stakeholders involved in the\nmobility ecosystem. In this paper, we present a game-theoretic framework to\nmodel multi-modal mobility systems, focusing on municipalities, service\nproviders, and travelers. Through a user-friendly, Graphical User Interface,\none can visualize system dynamics and compute equilibria for various scenarios.\nThe framework enables stakeholders to assess the impact of local decisions\n(e.g., fleet size for services or taxes for private companies) on the full\nmobility system. Furthermore, this project aims to foster STEM interest among\nhigh school students (e.g., in the context of prior activities in Switzerland,\nand planned activities with the MIT museum). This initiative combines\ntheoretical advancements, practical applications, and educational outreach to\nimprove mobility system design.",
+            "authors": [
+                "Margarita Zambrano",
+                "Xinling Li",
+                "Riccardo Fiorista",
+                "Gioele Zardini"
+            ],
+            "published": "2025-02-06T15:40:24Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04155v1"
+        },
+        {
+            "title": "UltraIF: Advancing Instruction Following from the Wild",
+            "summary": "Instruction-following made modern large language models (LLMs) helpful\nassistants. However, the key to taming LLMs on complex instructions remains\nmysterious, for that there are huge gaps between models trained by open-source\ncommunity and those trained by leading companies. To bridge the gap, we propose\na simple and scalable approach UltraIF for building LLMs that can follow\ncomplex instructions with open-source data. UltraIF first decomposes real-world\nuser prompts into simpler queries, constraints, and corresponding evaluation\nquestions for the constraints. Then, we train an UltraComposer to compose\nconstraint-associated prompts with evaluation questions. This prompt composer\nallows us to synthesize complicated instructions as well as filter responses\nwith evaluation questions. In our experiment, for the first time, we\nsuccessfully align LLaMA-3.1-8B-Base to catch up with its instruct version on 5\ninstruction-following benchmarks without any benchmark information, using only\n8B model as response generator and evaluator. The aligned model also achieved\ncompetitive scores on other benchmarks. Moreover, we also show that UltraIF\ncould further improve LLaMA-3.1-8B-Instruct through self-alignment, motivating\nbroader use cases for the method. Our code will be available at\nhttps://github.com/kkk-an/UltraIF.",
+            "authors": [
+                "Kaikai An",
+                "Li Sheng",
+                "Ganqu Cui",
+                "Shuzheng Si",
+                "Ning Ding",
+                "Yu Cheng",
+                "Baobao Chang"
+            ],
+            "published": "2025-02-06T15:39:16Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04153v1"
+        }
+    ],
+    "Artificial Intelligence & ML": [
+        {
+            "title": "Value-Based Deep RL Scales Predictably",
+            "summary": "Scaling data and compute is critical to the success of machine learning.\nHowever, scaling demands predictability: we want methods to not only perform\nwell with more compute or data, but also have their performance be predictable\nfrom small-scale runs, without running the large-scale experiment. In this\npaper, we show that value-based off-policy RL methods are predictable despite\ncommunity lore regarding their pathological behavior. First, we show that data\nand compute requirements to attain a given performance level lie on a Pareto\nfrontier, controlled by the updates-to-data (UTD) ratio. By estimating this\nfrontier, we can predict this data requirement when given more compute, and\nthis compute requirement when given more data. Second, we determine the optimal\nallocation of a total resource budget across data and compute for a given\nperformance and use it to determine hyperparameters that maximize performance\nfor a given budget. Third, this scaling behavior is enabled by first estimating\npredictable relationships between hyperparameters, which is used to manage\neffects of overfitting and plasticity loss unique to RL. We validate our\napproach using three algorithms: SAC, BRO, and PQL on DeepMind Control, OpenAI\ngym, and IsaacGym, when extrapolating to higher levels of data, compute,\nbudget, or performance.",
+            "authors": [
+                "Oleh Rybkin",
+                "Michal Nauman",
+                "Preston Fu",
+                "Charlie Snell",
+                "Pieter Abbeel",
+                "Sergey Levine",
+                "Aviral Kumar"
+            ],
+            "published": "2025-02-06T18:59:47Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04327v1"
+        },
+        {
+            "title": "ConceptAttention: Diffusion Transformers Learn Highly Interpretable\n  Features",
+            "summary": "Do the rich representations of multi-modal diffusion transformers (DiTs)\nexhibit unique properties that enhance their interpretability? We introduce\nConceptAttention, a novel method that leverages the expressive power of DiT\nattention layers to generate high-quality saliency maps that precisely locate\ntextual concepts within images. Without requiring additional training,\nConceptAttention repurposes the parameters of DiT attention layers to produce\nhighly contextualized concept embeddings, contributing the major discovery that\nperforming linear projections in the output space of DiT attention layers\nyields significantly sharper saliency maps compared to commonly used\ncross-attention mechanisms. Remarkably, ConceptAttention even achieves\nstate-of-the-art performance on zero-shot image segmentation benchmarks,\noutperforming 11 other zero-shot interpretability methods on the\nImageNet-Segmentation dataset and on a single-class subset of PascalVOC. Our\nwork contributes the first evidence that the representations of multi-modal DiT\nmodels like Flux are highly transferable to vision tasks like segmentation,\neven outperforming multi-modal foundation models like CLIP.",
+            "authors": [
+                "Alec Helbling",
+                "Tuna Han Salih Meral",
+                "Ben Hoover",
+                "Pinar Yanardag",
+                "Duen Horng Chau"
+            ],
+            "published": "2025-02-06T18:59:00Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04320v1"
+        },
+        {
+            "title": "Factorized Implicit Global Convolution for Automotive Computational\n  Fluid Dynamics Prediction",
+            "summary": "Computational Fluid Dynamics (CFD) is crucial for automotive design,\nrequiring the analysis of large 3D point clouds to study how vehicle geometry\naffects pressure fields and drag forces. However, existing deep learning\napproaches for CFD struggle with the computational complexity of processing\nhigh-resolution 3D data. We propose Factorized Implicit Global Convolution\n(FIGConv), a novel architecture that efficiently solves CFD problems for very\nlarge 3D meshes with arbitrary input and output geometries. FIGConv achieves\nquadratic complexity $O(N^2)$, a significant improvement over existing 3D\nneural CFD models that require cubic complexity $O(N^3)$. Our approach combines\nFactorized Implicit Grids to approximate high-resolution domains, efficient\nglobal convolutions through 2D reparameterization, and a U-shaped architecture\nfor effective information gathering and integration. We validate our approach\non the industry-standard Ahmed body dataset and the large-scale DrivAerNet\ndataset. In DrivAerNet, our model achieves an $R^2$ value of 0.95 for drag\nprediction, outperforming the previous state-of-the-art by a significant\nmargin. This represents a 40% improvement in relative mean squared error and a\n70% improvement in absolute mean squared error over previous methods.",
+            "authors": [
+                "Chris Choy",
+                "Alexey Kamenev",
+                "Jean Kossaifi",
+                "Max Rietmann",
+                "Jan Kautz",
+                "Kamyar Azizzadenesheli"
+            ],
+            "published": "2025-02-06T18:57:57Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04317v1"
+        },
+        {
+            "title": "Finding Pegasus: Enhancing Unsupervised Anomaly Detection in\n  High-Dimensional Data using a Manifold-Based Approach",
+            "summary": "Unsupervised machine learning methods are well suited to searching for\nanomalies at scale but can struggle with the high-dimensional representation of\nmany modern datasets, hence dimensionality reduction (DR) is often performed\nfirst. In this paper we analyse unsupervised anomaly detection (AD) from the\nperspective of the manifold created in DR. We present an idealised\nillustration, \"Finding Pegasus\", and a novel formal framework with which we\ncategorise AD methods and their results into \"on manifold\" and \"off manifold\".\nWe define these terms and show how they differ. We then use this insight to\ndevelop an approach of combining AD methods which significantly boosts AD\nrecall without sacrificing precision in situations employing high DR. When\ntested on MNIST data, our approach of combining AD methods improves recall by\nas much as 16 percent compared with simply combining with the best standalone\nAD method (Isolation Forest), a result which shows great promise for its\napplication to real-world data.",
+            "authors": [
+                "R. P. Nathan",
+                "Nikolaos Nikolaou",
+                "Ofer Lahav"
+            ],
+            "published": "2025-02-06T18:53:30Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04310v1"
+        },
+        {
+            "title": "DexterityGen: Foundation Controller for Unprecedented Dexterity",
+            "summary": "Teaching robots dexterous manipulation skills, such as tool use, presents a\nsignificant challenge. Current approaches can be broadly categorized into two\nstrategies: human teleoperation (for imitation learning) and sim-to-real\nreinforcement learning. The first approach is difficult as it is hard for\nhumans to produce safe and dexterous motions on a different embodiment without\ntouch feedback. The second RL-based approach struggles with the domain gap and\ninvolves highly task-specific reward engineering on complex tasks. Our key\ninsight is that RL is effective at learning low-level motion primitives, while\nhumans excel at providing coarse motion commands for complex, long-horizon\ntasks. Therefore, the optimal solution might be a combination of both\napproaches. In this paper, we introduce DexterityGen (DexGen), which uses RL to\npretrain large-scale dexterous motion primitives, such as in-hand rotation or\ntranslation. We then leverage this learned dataset to train a dexterous\nfoundational controller. In the real world, we use human teleoperation as a\nprompt to the controller to produce highly dexterous behavior. We evaluate the\neffectiveness of DexGen in both simulation and real world, demonstrating that\nit is a general-purpose controller that can realize input dexterous\nmanipulation commands and significantly improves stability by 10-100x measured\nas duration of holding objects across diverse tasks. Notably, with DexGen we\ndemonstrate unprecedented dexterous skills including diverse object\nreorientation and dexterous tool use such as pen, syringe, and screwdriver for\nthe first time.",
+            "authors": [
+                "Zhao-Heng Yin",
+                "Changhao Wang",
+                "Luis Pineda",
+                "Francois Hogan",
+                "Krishna Bodduluri",
+                "Akash Sharma",
+                "Patrick Lancaster",
+                "Ishita Prasad",
+                "Mrinal Kalakrishnan",
+                "Jitendra Malik",
+                "Mike Lambeta",
+                "Tingfan Wu",
+                "Pieter Abbeel",
+                "Mustafa Mukadam"
+            ],
+            "published": "2025-02-06T18:49:35Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04307v1"
+        },
+        {
+            "title": "Electrical Impedance Tomography for Anisotropic Media: a Machine\n  Learning Approach to Classify Inclusions",
+            "summary": "We consider the problem in Electrical Impedance Tomography (EIT) of\nidentifying one or multiple inclusions in a background-conducting body\n$\\Omega\\subset\\mathbb{R}^2$, from the knowledge of a finite number of\nelectrostatic measurements taken on its boundary $\\partial\\Omega$ and modelled\nby the Dirichlet-to-Neumann (D-N) matrix. Once the presence of one inclusion in\n$\\Omega$ is established, our model, combined with the machine learning\ntechniques of Artificial Neural Networks (ANN) and Support Vector Machines\n(SVM), may be used to determine the size of the inclusion, the presence of\nmultiple inclusions, and also that of anisotropy within the inclusion(s).\nUtilising both real and simulated datasets within a 16-electrode setup, we\nachieve a high rate of inclusion detection and show that two measurements are\nsufficient to achieve a good level of accuracy when predicting the size of an\ninclusion. This underscores the substantial potential of integrating machine\nlearning approaches with the more classical analysis of EIT and the inverse\ninclusion problem to extract critical insights, such as the presence of\nanisotropy.",
+            "authors": [
+                "Romina Gaburro",
+                "Patrick Healy",
+                "Shraddha Naidu",
+                "Clifford Nolan"
+            ],
+            "published": "2025-02-06T18:15:54Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04273v1"
+        },
+        {
+            "title": "Variational decision diagrams for quantum-inspired machine learning\n  applications",
+            "summary": "Decision diagrams (DDs) have emerged as an efficient tool for simulating\nquantum circuits due to their capacity to exploit data redundancies in quantum\nstates and quantum operations, enabling the efficient computation of\nprobability amplitudes. However, their application in quantum machine learning\n(QML) has remained unexplored. This paper introduces variational decision\ndiagrams (VDDs), a novel graph structure that combines the structural benefits\nof DDs with the adaptability of variational methods for efficiently\nrepresenting quantum states. We investigate the trainability of VDDs by\napplying them to the ground state estimation problem for transverse-field Ising\nand Heisenberg Hamiltonians. Analysis of gradient variance suggests that\ntraining VDDs is possible, as no signs of vanishing gradients--also known as\nbarren plateaus--are observed. This work provides new insights into the use of\ndecision diagrams in QML as an alternative to design and train variational\nans\\\"atze.",
+            "authors": [
+                "Santiago Acevedo-Mancera",
+                "Vladimir Vargas-Calderón",
+                "Herbert Vinck-Posada"
+            ],
+            "published": "2025-02-06T18:09:08Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04271v1"
+        },
+        {
+            "title": "PILAF: Optimal Human Preference Sampling for Reward Modeling",
+            "summary": "As large language models increasingly drive real-world applications, aligning\nthem with human values becomes paramount. Reinforcement Learning from Human\nFeedback (RLHF) has emerged as a key technique, translating preference data\ninto reward models when oracle human values remain inaccessible. In practice,\nRLHF mostly relies on approximate reward models, which may not consistently\nguide the policy toward maximizing the underlying human values. We propose\nPolicy-Interpolated Learning for Aligned Feedback (PILAF), a novel response\nsampling strategy for preference labeling that explicitly aligns preference\nlearning with maximizing the underlying oracle reward. PILAF is theoretically\ngrounded, demonstrating optimality from both an optimization and a statistical\nperspective. The method is straightforward to implement and demonstrates strong\nperformance in iterative and online RLHF settings where feedback curation is\ncritical.",
+            "authors": [
+                "Yunzhen Feng",
+                "Ariel Kwiatkowski",
+                "Kunhao Zheng",
+                "Julia Kempe",
+                "Yaqi Duan"
+            ],
+            "published": "2025-02-06T18:09:00Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04270v1"
+        },
+        {
+            "title": "Realistic Image-to-Image Machine Unlearning via Decoupling and Knowledge\n  Retention",
+            "summary": "Machine Unlearning allows participants to remove their data from a trained\nmachine learning model in order to preserve their privacy, and security.\nHowever, the machine unlearning literature for generative models is rather\nlimited. The literature for image-to-image generative model (I2I model)\nconsiders minimizing the distance between Gaussian noise and the output of I2I\nmodel for forget samples as machine unlearning. However, we argue that the\nmachine learning model performs fairly well on unseen data i.e., a retrained\nmodel will be able to catch generic patterns in the data and hence will not\ngenerate an output which is equivalent to Gaussian noise. In this paper, we\nconsider that the model after unlearning should treat forget samples as\nout-of-distribution (OOD) data, i.e., the unlearned model should no longer\nrecognize or encode the specific patterns found in the forget samples. To\nachieve this, we propose a framework which decouples the model parameters with\ngradient ascent, ensuring that forget samples are OOD for unlearned model with\ntheoretical guarantee. We also provide $(\\epsilon, \\delta)$-unlearning\nguarantee for model updates with gradient ascent. The unlearned model is\nfurther fine-tuned on the remaining samples to maintain its performance. We\nalso propose an attack model to ensure that the unlearned model has effectively\nremoved the influence of forget samples. Extensive empirical evaluation on two\nlarge-scale datasets, ImageNet-1K and Places365 highlights the superiority of\nour approach. To show comparable performance with retrained model, we also show\nthe comparison of a simple AutoEncoder on various baselines on CIFAR-10\ndataset.",
+            "authors": [
+                "Ayush K. Varshney",
+                "Vicenç Torra"
+            ],
+            "published": "2025-02-06T17:46:49Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04260v1"
+        },
+        {
+            "title": "Student-t processes as infinite-width limits of posterior Bayesian\n  neural networks",
+            "summary": "The asymptotic properties of Bayesian Neural Networks (BNNs) have been\nextensively studied, particularly regarding their approximations by Gaussian\nprocesses in the infinite-width limit. We extend these results by showing that\nposterior BNNs can be approximated by Student-t processes, which offer greater\nflexibility in modeling uncertainty. Specifically, we show that, if the\nparameters of a BNN follow a Gaussian prior distribution, and the variance of\nboth the last hidden layer and the Gaussian likelihood function follows an\nInverse-Gamma prior distribution, then the resulting posterior BNN converges to\na Student-t process in the infinite-width limit. Our proof leverages the\nWasserstein metric to establish control over the convergence rate of the\nStudent-t process approximation.",
+            "authors": [
+                "Francesco Caporali",
+                "Stefano Favaro",
+                "Dario Trevisan"
+            ],
+            "published": "2025-02-06T17:37:55Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04247v1"
+        },
+        {
+            "title": "TriNER: A Series of Named Entity Recognition Models For Hindi, Bengali &\n  Marathi",
+            "summary": "India's rich cultural and linguistic diversity poses various challenges in\nthe domain of Natural Language Processing (NLP), particularly in Named Entity\nRecognition (NER). NER is a NLP task that aims to identify and classify tokens\ninto different entity groups like Person, Location, Organization, Number, etc.\nThis makes NER very useful for downstream tasks like context-aware\nanonymization. This paper details our work to build a multilingual NER model\nfor the three most spoken languages in India - Hindi, Bengali & Marathi. We\ntrain a custom transformer model and fine tune a few pretrained models,\nachieving an F1 Score of 92.11 for a total of 6 entity groups. Through this\npaper, we aim to introduce a single model to perform NER and significantly\nreduce the inconsistencies in entity groups and tag names, across the three\nlanguages.",
+            "authors": [
+                "Mohammed Amaan Dhamaskar",
+                "Rasika Ransing"
+            ],
+            "published": "2025-02-06T17:37:36Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04245v1"
+        },
+        {
+            "title": "FedOptimus: Optimizing Vertical Federated Learning for Scalability and\n  Efficiency",
+            "summary": "Federated learning (FL) is a collaborative machine learning paradigm which\nensures data privacy by training models across distributed datasets without\ncentralizing sensitive information. Vertical Federated Learning (VFL), a kind\nof FL training method, facilitates collaboration among participants with each\nclient having received a different feature space of a shared user set. VFL\nthus, proves invaluable in privacy-sensitive domains such as finance and\nhealthcare. Despite its inherent advantages, VFL faced challenges including\ncommunication bottlenecks, computational inefficiency, and slow convergence due\nto non-IID data distributions. This paper introduces FedOptimus, a robust\nMulti-VFL framework integrating advanced techniques for improved model\nefficiency and scalability. FedOptimus leverages a Mutual Information\n(MI)-based client selection to prioritize high-contribution participants,\nreducing computational overhead. Further, it incorporates server-side momentum\ntechniques like FedAvgM and SLOWMO to stabilize updates and accelerate\nconvergence on heterogeneous data. Additionally, performing K-Step Averaging\nminimizes communication costs while maintaining model performance. FedOptimus\nproves to be superior in performance on benchmark datasets such as CIFAR-10,\nMNIST, and FMNIST, showcasing its scalability and effectiveness in real-world\nmulti-server, multi-client settings. By unifying advanced optimization methods,\nFedOptimus sets a new standard for efficient and scalable Vertical Federated\nLearning frameworks, paving the way for broader adoption in complex,\nprivacy-sensitive domains.",
+            "authors": [
+                "Nikita Shrivastava",
+                "Drishya Uniyal",
+                "Bapi Chatterjee"
+            ],
+            "published": "2025-02-06T17:35:05Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04243v1"
+        },
+        {
+            "title": "Saflo: eBPF-Based MPTCP Scheduler for Mitigating Traffic Analysis\n  Attacks in Cellular Networks",
+            "summary": "This paper presents the $\\underline{\\textbf{saf}}$e\nsub$\\underline{\\textbf{flo}}$w (Saflo) eBPF-based multipath TCP (MPTCP)\nscheduler, designed to mitigate traffic analysis attacks in cellular networks.\nTraffic analysis attacks, which exploit vulnerabilities in Downlink Control\nInformation (DCI) messages, remain a significant security threat in LTE/5G\nnetworks. To counter such threats, the Saflo scheduler employs multipath\ncommunication combined with additional security-related tasks. Specifically, it\nutilizes eBPF tools to operate in both kernel and user spaces. In the kernel\nspace, the eBPF scheduler performs multipath scheduling while excluding paths\ndisabled by the user-space programs. The user-space programs conduct\nsecurity-related computations and machine learning-based attack detection,\ndetermining whether each path should be enabled or disabled. This approach\noffloads computationally intensive tasks to user-space programs, enabling\ntimely multipath scheduling in kernel space. The Saflo scheduler was evaluated\nin a private LTE/5G testbed. The results demonstrated that it significantly\nreduces the accuracy of video identification and user identification attacks in\ncellular networks while maintaining reasonable network performance for users.",
+            "authors": [
+                "Sangwoo Lee",
+                "Liuyi Jin",
+                "Radu Stoleru"
+            ],
+            "published": "2025-02-06T17:20:07Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04236v1"
+        },
+        {
+            "title": "A Classification System Approach in Predicting Chinese Censorship",
+            "summary": "This paper is dedicated to using a classifier to predict whether a Weibo post\nwould be censored under the Chinese internet. Through randomized sampling from\n\\citeauthor{Fu2021} and Chinese tokenizing strategies, we constructed a cleaned\nChinese phrase dataset with binary censorship markings. Utilizing various\nprobability-based information retrieval methods on the data, we were able to\nderive 4 logistic regression models for classification. Furthermore, we\nexperimented with pre-trained transformers to perform similar classification\ntasks. After evaluating both the macro-F1 and ROC-AUC metrics, we concluded\nthat the Fined-Tuned BERT model exceeds other strategies in performance.",
+            "authors": [
+                "Matt Prodani",
+                "Tianchu Ze",
+                "Yushen Hu"
+            ],
+            "published": "2025-02-06T17:19:14Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04234v1"
+        },
+        {
+            "title": "Graph machine learning for flight delay prediction due to holding\n  manouver",
+            "summary": "Flight delays due to holding maneuvers are a critical and costly phenomenon\nin aviation, driven by the need to manage air traffic congestion and ensure\nsafety. Holding maneuvers occur when aircraft are instructed to circle in\ndesignated airspace, often due to factors such as airport congestion, adverse\nweather, or air traffic control restrictions. This study models the prediction\nof flight delays due to holding maneuvers as a graph problem, leveraging\nadvanced Graph Machine Learning (Graph ML) techniques to capture complex\ninterdependencies in air traffic networks. Holding maneuvers, while crucial for\nsafety, cause increased fuel usage, emissions, and passenger dissatisfaction,\nmaking accurate prediction essential for operational efficiency. Traditional\nmachine learning models, typically using tabular data, often overlook\nspatial-temporal relations within air traffic data. To address this, we model\nthe problem of predicting holding as edge feature prediction in a directed\n(multi)graph where we apply both CatBoost, enriched with graph features\ncapturing network centrality and connectivity, and Graph Attention Networks\n(GATs), which excel in relational data contexts. Our results indicate that\nCatBoost outperforms GAT in this imbalanced dataset, effectively predicting\nholding events and offering interpretability through graph-based feature\nimportance. Additionally, we discuss the model's potential operational impact\nthrough a web-based tool that allows users to simulate real-time delay\npredictions. This research underscores the viability of graph-based approaches\nfor predictive analysis in aviation, with implications for enhancing fuel\nefficiency, reducing delays, and improving passenger experience.",
+            "authors": [
+                "Jorge L. Franco",
+                "Manoel V. Machado Neto",
+                "Filipe A. N. Verri",
+                "Diego R. Amancio"
+            ],
+            "published": "2025-02-06T17:18:53Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04233v1"
+        },
+        {
+            "title": "Provably Robust Explainable Graph Neural Networks against Graph\n  Perturbation Attacks",
+            "summary": "Explaining Graph Neural Network (XGNN) has gained growing attention to\nfacilitate the trust of using GNNs, which is the mainstream method to learn\ngraph data. Despite their growing attention, Existing XGNNs focus on improving\nthe explanation performance, and its robustness under attacks is largely\nunexplored. We noticed that an adversary can slightly perturb the graph\nstructure such that the explanation result of XGNNs is largely changed. Such\nvulnerability of XGNNs could cause serious issues particularly in\nsafety/security-critical applications. In this paper, we take the first step to\nstudy the robustness of XGNN against graph perturbation attacks, and propose\nXGNNCert, the first provably robust XGNN. Particularly, our XGNNCert can\nprovably ensure the explanation result for a graph under the worst-case graph\nperturbation attack is close to that without the attack, while not affecting\nthe GNN prediction, when the number of perturbed edges is bounded. Evaluation\nresults on multiple graph datasets and GNN explainers show the effectiveness of\nXGNNCert.",
+            "authors": [
+                "Jiate Li",
+                "Meng Pang",
+                "Yun Dong",
+                "Jinyuan Jia",
+                "Binghui Wang"
+            ],
+            "published": "2025-02-06T17:07:52Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04224v1"
+        },
+        {
+            "title": "Algorithmic causal structure emerging through compression",
+            "summary": "We explore the relationship between causality, symmetry, and compression. We\nbuild on and generalize the known connection between learning and compression\nto a setting where causal models are not identifiable. We propose a framework\nwhere causality emerges as a consequence of compressing data across multiple\nenvironments. We define algorithmic causality as an alternative definition of\ncausality when traditional assumptions for causal identifiability do not hold.\nWe demonstrate how algorithmic causal and symmetric structures can emerge from\nminimizing upper bounds on Kolmogorov complexity, without knowledge of\nintervention targets. We hypothesize that these insights may also provide a\nnovel perspective on the emergence of causality in machine learning models,\nsuch as large language models, where causal relationships may not be explicitly\nidentifiable.",
+            "authors": [
+                "Liang Wendong",
+                "Simon Buchholz",
+                "Bernhard Schölkopf"
+            ],
+            "published": "2025-02-06T16:50:57Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04210v1"
+        },
+        {
+            "title": "\"Short-length\" Adversarial Training Helps LLMs Defend \"Long-length\"\n  Jailbreak Attacks: Theoretical and Empirical Evidence",
+            "summary": "Jailbreak attacks against large language models (LLMs) aim to induce harmful\nbehaviors in LLMs through carefully crafted adversarial prompts. To mitigate\nattacks, one way is to perform adversarial training (AT)-based alignment, i.e.,\ntraining LLMs on some of the most adversarial prompts to help them learn how to\nbehave safely under attacks. During AT, the length of adversarial prompts plays\na critical role in the robustness of aligned LLMs. This paper focuses on\nadversarial suffix jailbreak attacks and unveils that to defend against a\njailbreak attack with an adversarial suffix of length $\\Theta(M)$, it is enough\nto align LLMs on prompts with adversarial suffixes of length\n$\\Theta(\\sqrt{M})$. Theoretically, we analyze the adversarial in-context\nlearning of linear transformers on linear regression tasks and prove a robust\ngeneralization bound for trained transformers. The bound depends on the term\n$\\Theta(\\sqrt{M_{\\text{test}}}/M_{\\text{train}})$, where $M_{\\text{train}}$ and\n$M_{\\text{test}}$ are the number of adversarially perturbed in-context samples\nduring training and testing. Empirically, we conduct AT on popular open-source\nLLMs and evaluate their robustness against jailbreak attacks of different\nadversarial suffix lengths. Results confirm a positive correlation between the\nattack success rate and the ratio of the square root of the adversarial suffix\nduring jailbreaking to the length during AT. Our findings show that it is\npractical to defend \"long-length\" jailbreak attacks via efficient\n\"short-length\" AT. The code is available at https://github.com/fshp971/adv-icl.",
+            "authors": [
+                "Shaopeng Fu",
+                "Liang Ding",
+                "Di Wang"
+            ],
+            "published": "2025-02-06T16:44:26Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04204v1"
+        },
+        {
+            "title": "GUIWatcher: Automatically Detecting GUI Lags by Analyzing Mobile\n  Application Screencasts",
+            "summary": "The Graphical User Interface (GUI) plays a central role in mobile\napplications, directly affecting usability and user satisfaction. Poor GUI\nperformance, such as lag or unresponsiveness, can lead to negative user\nexperience and decreased mobile application (app) ratings. In this paper, we\npresent GUIWatcher, a framework designed to detect GUI lags by analyzing\nscreencasts recorded during mobile app testing. GUIWatcher uses computer vision\ntechniques to identify three types of lag-inducing frames (i.e., janky frames,\nlong loading frames, and frozen frames) and prioritizes the most severe ones\nthat significantly impact user experience. Our approach was evaluated using\nreal-world mobile application tests, achieving high accuracy in detecting GUI\nlags in screencasts, with an average precision of 0.91 and recall of 0.96. The\ncomprehensive bug reports generated from the lags detected by GUIWatcher help\ndevelopers focus on the more critical issues and debug them efficiently.\nAdditionally, GUIWatcher has been deployed in a real-world production\nenvironment, continuously monitoring app performance and successfully\nidentifying critical GUI performance issues. By offering a practical solution\nfor identifying and addressing GUI lags, GUIWatcher contributes to enhancing\nuser satisfaction and the overall quality of mobile apps.",
+            "authors": [
+                "Wei Liu",
+                "Feng Lin",
+                "Linqiang Guo",
+                "Tse-Hsun Chen",
+                "Ahmed E. Hassan"
+            ],
+            "published": "2025-02-06T16:43:51Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04202v1"
+        },
+        {
+            "title": "Expanding Training Data for Endoscopic Phenotyping of Eosinophilic\n  Esophagitis",
+            "summary": "Eosinophilic esophagitis (EoE) is a chronic esophageal disorder marked by\neosinophil-dominated inflammation. Diagnosing EoE usually involves endoscopic\ninspection of the esophageal mucosa and obtaining esophageal biopsies for\nhistologic confirmation. Recent advances have seen AI-assisted endoscopic\nimaging, guided by the EREFS system, emerge as a potential alternative to\nreduce reliance on invasive histological assessments. Despite these\nadvancements, significant challenges persist due to the limited availability of\ndata for training AI models - a common issue even in the development of AI for\nmore prevalent diseases. This study seeks to improve the performance of deep\nlearning-based EoE phenotype classification by augmenting our training data\nwith a diverse set of images from online platforms, public datasets, and\nelectronic textbooks increasing our dataset from 435 to 7050 images. We\nutilized the Data-efficient Image Transformer for image classification and\nincorporated attention map visualizations to boost interpretability. The\nfindings show that our expanded dataset and model enhancements improved\ndiagnostic accuracy, robustness, and comprehensive analysis, enhancing patient\noutcomes.",
+            "authors": [
+                "Juming Xiong",
+                "Hou Xiong",
+                "Quan Liu",
+                "Ruining Deng",
+                "Regina N Tyree",
+                "Girish Hiremath",
+                "Yuankai Huo"
+            ],
+            "published": "2025-02-06T16:38:47Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04199v1"
+        },
+        {
+            "title": "Making Sense of Touch: Unsupervised Shapelet Learning in Bag-of-words\n  Sense",
+            "summary": "This paper introduces NN-STNE, a neural network using t-distributed\nstochastic neighbor embedding (t-SNE) as a hidden layer to reduce input\ndimensions by mapping long time-series data into shapelet membership\nprobabilities. A Gaussian kernel-based mean square error preserves local data\nstructure, while K-means initializes shapelet candidates due to the non-convex\noptimization challenge. Unlike existing methods, our approach uses t-SNE to\naddress crowding in low-dimensional space and applies L1-norm regularization to\noptimize shapelet length. Evaluations on the UCR dataset and an electrical\ncomponent manipulation task, like switching on, demonstrate improved clustering\naccuracy over state-of-the-art feature-learning methods in robotics.",
+            "authors": [
+                "Zhicong Xian",
+                "Tabish Chaudhary",
+                "Jürgen Bock"
+            ],
+            "published": "2025-02-06T15:50:40Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04167v1"
+        },
+        {
+            "title": "Efficient Distributed Optimization under Heavy-Tailed Noise",
+            "summary": "Distributed optimization has become the default training paradigm in modern\nmachine learning due to the growing scale of models and datasets. To mitigate\ncommunication overhead, local updates are often applied before global\naggregation, resulting in a nested optimization approach with inner and outer\nsteps. However, heavy-tailed stochastic gradient noise remains a significant\nchallenge, particularly in attention-based models, hindering effective\ntraining. In this work, we propose TailOPT, an efficient framework designed to\naddress heavy-tailed noise by leveraging adaptive optimization or clipping\ntechniques. We establish convergence guarantees for the TailOPT framework under\nheavy-tailed noise with potentially unbounded gradient variance and local\nupdates. Among its variants, we highlight a memory and communication efficient\ninstantiation which we call $Bi^2Clip$, which performs coordinate-wise clipping\nat both the inner and outer optimizers, achieving adaptive-like performance\n(e.g., Adam) without the cost of maintaining or transmitting additional\ngradient statistics. Empirically, TailOPT, including $Bi^2Clip$, demonstrates\nsuperior performance on several language tasks and models, outperforming\nstate-of-the-art methods.",
+            "authors": [
+                "Su Hyeong Lee",
+                "Manzil Zaheer",
+                "Tian Li"
+            ],
+            "published": "2025-02-06T15:47:18Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04164v1"
+        }
+    ],
+    "Quantum Computing": [
+        {
+            "title": "The Uniformly Rotated Mondrian Kernel",
+            "summary": "First proposed by Rahimi and Recht, random features are used to decrease the\ncomputational cost of kernel machines in large-scale problems. The Mondrian\nkernel is one such example of a fast random feature approximation of the\nLaplace kernel, generated by a computationally efficient hierarchical random\npartition of the input space known as the Mondrian process. In this work, we\nstudy a variation of this random feature map by using uniformly randomly\nrotated Mondrian processes to approximate a kernel that is invariant under\nrotations. We obtain a closed-form expression for this isotropic kernel, as\nwell as a uniform convergence rate of the uniformly rotated Mondrian kernel to\nthis limit. To this end, we utilize techniques from the theory of stationary\nrandom tessellations in stochastic geometry and prove a new result on the\ngeometry of the typical cell of the superposition of uniformly random rotations\nof Mondrian tessellations. Finally, we test the empirical performance of this\nrandom feature map on both synthetic and real-world datasets, demonstrating its\nimproved performance over the Mondrian kernel on a debiased dataset.",
+            "authors": [
+                "Calvin Osborne",
+                "Eliza O'Reilly"
+            ],
+            "published": "2025-02-06T18:59:24Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04323v1"
+        },
+        {
+            "title": "Non-Variational Quantum Random Access Optimization with Alternating\n  Operator Ansatz",
+            "summary": "Solving hard optimization problems is one of the most promising application\ndomains for quantum computers due to the ubiquity of such problems in industry\nand the availability of broadly applicable quantum speedups. However, the\nability of near-term quantum computers to tackle industrial-scale optimization\nproblems is limited by their size and the overheads of quantum error\ncorrection. Quantum Random Access Optimization (QRAO) has been proposed to\nreduce the space requirements of quantum optimization. However, to date QRAO\nhas only been implemented using variational algorithms, which suffer from the\nneed to train instance-specific variational parameters, making them difficult\nto scale. We propose and benchmark a non-variational approach to QRAO based on\nthe Quantum Alternating Operator Ansatz (QAOA) for the MaxCut problem. We show\nthat instance-independent ``fixed'' parameters achieve good performance,\nremoving the need for variational parameter optimization. Additionally, we\nevaluate different design choices, such as various mixers and initial states,\nas well as QAOA operator implementations when customizing for QRAO, and\nidentify a strategy that performs well in practice. Our results pave the way\nfor the practical execution of QRAO on early fault-tolerant quantum computers.",
+            "authors": [
+                "Zichang He",
+                "Rudy Raymond",
+                "Ruslan Shaydulin",
+                "Marco Pistoia"
+            ],
+            "published": "2025-02-06T18:25:31Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04277v1"
+        }
+    ],
+    "Cybersecurity & Cryptography": [
+        {
+            "title": "The 23andMe Data Breach: Analyzing Credential Stuffing Attacks, Security\n  Vulnerabilities, and Mitigation Strategies",
+            "summary": "In October 2023, 23andMe, a prominent provider of personal genetic testing,\nancestry, and health information services, suffered a significant data breach\norchestrated by a cybercriminal known as ``Golem.'' Initially, approximately\n14,000 user accounts were compromised by a credential smear attack, exploiting\nreused usernames and passwords from previous data leaks. However, due to the\ninterconnected nature of 23andMe's DNA Relatives and Family Tree features, the\nbreach expanded exponentially, exposing sensitive personal and genetic data of\napproximately 5.5 million users and 1.4 million additional profiles. The attack\nhighlights the increasing threat of credential stuffing, exacerbated by poor\npassword hygiene and the absence of robust security measures such as\nmulti-factor authentication (MFA) and rate limiting. In response, 23andMe\nmandated password resets, implemented email-based two-step verification, and\nadvised users to update passwords across other services. This paper critically\nanalyzes the attack methodology, its impact on users and the company, and\nexplores potential mitigation strategies, including enhanced authentication\nprotocols, proactive breach detection, and improved cybersecurity practices.\nThe findings underscore the necessity of stronger user authentication measures\nand corporate responsibility in safeguarding sensitive genetic and personal\ndata.",
+            "authors": [
+                "Ryan Holthouse",
+                "Serena Owens",
+                "Suman Bhunia"
+            ],
+            "published": "2025-02-06T18:44:26Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04303v1"
+        },
+        {
+            "title": "Breaking the Vault: A Case Study of the 2022 LastPass Data Breach",
+            "summary": "Managing the security of employee work computers has become increasingly\nimportant as today's work model shifts to remote and hybrid work plans. In this\npaper, we explore the recent 2022 LastPass data breach, in which the attacker\nobtained sensitive customer data by exploiting a software vulnerability on a\nDevSecOps engineer's computer. We discuss the methodology of the attacker as\nwell as the impact this incident had on LastPass and its customers. Next, we\nexpand upon the impact the breach had on LastPass as well as its customers.\nFrom this, we propose solutions for preparing for and mitigating similar\nattacks in the future. The aim of this paper is to shed light on the LastPass\nincident and provide methods for companies to secure their employee base, both\nnationally and internationally. With a strong security structure, companies can\nvastly reduce the chances of falling victim to a similar attack.",
+            "authors": [
+                "Jessica Gentles",
+                "Mason Fields",
+                "Garrett Goodman",
+                "Suman Bhunia"
+            ],
+            "published": "2025-02-06T18:33:57Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04287v1"
+        },
+        {
+            "title": "Dark Distillation: Backdooring Distilled Datasets without Accessing Raw\n  Data",
+            "summary": "Dataset distillation (DD) enhances training efficiency and reduces bandwidth\nby condensing large datasets into smaller synthetic ones. It enables models to\nachieve performance comparable to those trained on the raw full dataset and has\nbecome a widely adopted method for data sharing. However, security concerns in\nDD remain underexplored. Existing studies typically assume that malicious\nbehavior originates from dataset owners during the initial distillation\nprocess, where backdoors are injected into raw datasets. In contrast, this work\nis the first to address a more realistic and concerning threat: attackers may\nintercept the dataset distribution process, inject backdoors into the distilled\ndatasets, and redistribute them to users. While distilled datasets were\npreviously considered resistant to backdoor attacks, we demonstrate that they\nremain vulnerable to such attacks. Furthermore, we show that attackers do not\neven require access to any raw data to inject the backdoors successfully.\nSpecifically, our approach reconstructs conceptual archetypes for each class\nfrom the model trained on the distilled dataset. Backdoors are then injected\ninto these archetypes to update the distilled dataset. Moreover, we ensure the\nupdated dataset not only retains the backdoor but also preserves the original\noptimization trajectory, thus maintaining the knowledge of the raw dataset. To\nachieve this, a hybrid loss is designed to integrate backdoor information along\nthe benign optimization trajectory, ensuring that previously learned\ninformation is not forgotten. Extensive experiments demonstrate that distilled\ndatasets are highly vulnerable to backdoor attacks, with risks pervasive across\nvarious raw datasets, distillation methods, and downstream training strategies.\nMoreover, our attack method is efficient, capable of synthesizing a malicious\ndistilled dataset in under one minute in certain cases.",
+            "authors": [
+                "Ziyuan Yang",
+                "Ming Yan",
+                "Yi Zhang",
+                "Joey Tianyi Zhou"
+            ],
+            "published": "2025-02-06T17:14:17Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04229v1"
+        },
+        {
+            "title": "Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach\n  Penetration-Testing Active Directory Networks",
+            "summary": "We explore the feasibility and effectiveness of using LLM-driven autonomous\nsystems for Assumed Breach penetration testing in enterprise networks. We\nintroduce a novel prototype that, driven by Large Language Models (LLMs), can\ncompromise accounts within a real-life Active Directory testbed. Our research\nprovides a comprehensive evaluation of the prototype's capabilities, and\nhighlights both strengths and limitations while executing attack. The\nevaluation uses a realistic simulation environment (Game of Active Directory,\nGOAD) to capture intricate interactions, stochastic outcomes, and timing\ndependencies that characterize live network scenarios. The study concludes that\nautonomous LLMs are able to conduct Assumed Breach simulations, potentially\ndemocratizing access to penetration testing for organizations facing budgetary\nconstraints.\n  The prototype's source code, traces, and analyzed logs are released as\nopen-source to enhance collective cybersecurity and facilitate future research\nin LLM-driven cybersecurity automation.",
+            "authors": [
+                "Andreas Happe",
+                "Jürgen Cito"
+            ],
+            "published": "2025-02-06T17:12:43Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04227v1"
+        },
+        {
+            "title": "Safeguarding connected autonomous vehicle communication: Protocols,\n  intra- and inter-vehicular attacks and defenses",
+            "summary": "The advancements in autonomous driving technology, coupled with the growing\ninterest from automotive manufacturers and tech companies, suggest a rising\nadoption of Connected Autonomous Vehicles (CAVs) in the near future. Despite\nsome evidence of higher accident rates in AVs, these incidents tend to result\nin less severe injuries compared to traditional vehicles due to cooperative\nsafety measures. However, the increased complexity of CAV systems exposes them\nto significant security vulnerabilities, potentially compromising their\nperformance and communication integrity. This paper contributes by presenting a\ndetailed analysis of existing security frameworks and protocols, focusing on\nintra- and inter-vehicle communications. We systematically evaluate the\neffectiveness of these frameworks in addressing known vulnerabilities and\npropose a set of best practices for enhancing CAV communication security. The\npaper also provides a comprehensive taxonomy of attack vectors in CAV\necosystems and suggests future research directions for designing more robust\nsecurity mechanisms. Our key contributions include the development of a new\nclassification system for CAV security threats, the proposal of practical\nsecurity protocols, and the introduction of use cases that demonstrate how\nthese protocols can be integrated into real-world CAV applications. These\ninsights are crucial for advancing secure CAV adoption and ensuring the safe\nintegration of autonomous vehicles into intelligent transportation systems.",
+            "authors": [
+                "Mohammed Aledhari",
+                "Rehma Razzak",
+                "Mohamed Rahouti",
+                "Abbas Yazdinejad",
+                "Reza M. Parizi",
+                "Basheer Qolomany",
+                "Mohsen Guizani",
+                "Junaid Qadir",
+                "Ala Al-Fuqaha"
+            ],
+            "published": "2025-02-06T16:43:23Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04201v1"
+        },
+        {
+            "title": "Characterizing Bugs in Login Processes of Android Applications: An\n  Empirical Study",
+            "summary": "The login functionality, being the gateway to app usage, plays a critical\nrole in both user experience and application security. As Android apps\nincreasingly incorporate login functionalities, they support a variety of\nauthentication methods with complicated login processes, catering to\npersonalized user experiences. However, the complexities in managing different\noperations in login processes make it difficult for developers to handle them\ncorrectly. In this paper, we present the first empirical study of login issues\nin Android apps. We analyze 361 issues from 44 popular open-source Android\nrepositories, examining the root causes, symptoms, and trigger conditions of\nthese issues. Our findings indicate that the vast majority of the login issues\nare induced by the improper handling of complex state transitions during the\nlogin process, which can prevent users from logging in or misdirect them to\nincorrect subsequent actions. Additionally, we observed that issues related to\nthis cause typically require the convergence of multiple trigger conditions to\nmanifest. These findings can help developers to model the login processes which\ncan help them to identify the causes of issues and design targeted test cases\nand precise test oracles. Our dataset has been made openly available to\nfacilitate future research in this area.",
+            "authors": [
+                "Zixu Zhou",
+                "Rufeng Chen",
+                "Junfeng Chen",
+                "Yepang Liu",
+                "Zixu Zhou"
+            ],
+            "published": "2025-02-06T16:43:16Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04200v1"
+        }
+    ],
+    "Human-Computer Interaction & AR/VR": [
+        {
+            "title": "Cognitive AI framework: advances in the simulation of human thought",
+            "summary": "The Human Cognitive Simulation Framework represents a significant advancement\nin integrating human cognitive capabilities into artificial intelligence\nsystems. By merging short-term memory (conversation context), long-term memory\n(interaction context), advanced cognitive processing, and efficient knowledge\nmanagement, it ensures contextual coherence and persistent data storage,\nenhancing personalization and continuity in human-AI interactions. The\nframework employs a unified database that synchronizes these contexts while\nincorporating logical, creative, and analog processing modules inspired by\nhuman brain hemispheric functions to perform structured tasks and complex\ninferences. Dynamic knowledge updates enable real-time integration, improving\nadaptability and fostering applications in education, behavior analysis, and\nknowledge management. Despite its potential to process vast data volumes and\nenhance user experience, challenges remain in scalability, cognitive bias\nmitigation, and ethical compliance. This framework lays the foundation for\nfuture research in continuous learning algorithms, sustainability, and\nmultimodal adaptability, positioning Cognitive AI as a transformative model in\nemerging fields.",
+            "authors": [
+                "Rommel Salas-Guerra"
+            ],
+            "published": "2025-02-06T17:43:35Z",
+            "arxiv_url": "http://arxiv.org/abs/2502.04259v1"
+        }
+    ]
+}
